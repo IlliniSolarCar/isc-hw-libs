@@ -1,9 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP INA199
-D Current Shunt Monitor −16 V to +80 V Common-Mode Range, 20V/V, SOT-23-5
+D Current Shunt Monitor −0.3 V to +26 V Common-Mode Range, Bidirectional, Zero-Drift, Low- or High-Side
 K current sense shunt monitor
-F http://www.ti.com/lit/ds/symlink/ina193.pdf
+F http://www.ti.com/lit/ds/symlink/ina199.pdf
+$ENDCMP
+#
+$CMP INA199x1
+D Current Shunt Monitor −0.3 V to +26 V Common-Mode Range, 50V/V, Bidirectional, Zero-Drift, Low- or High-Side
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina199.pdf
+$ENDCMP
+#
+$CMP INA199x2
+D Current Shunt Monitor −0.3 V to +26 V Common-Mode Range, 100V/V, Bidirectional, Zero-Drift, Low- or High-Side
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina199.pdf
+$ENDCMP
+#
+$CMP INA199x3
+D Current Shunt Monitor −0.3 V to +26 V Common-Mode Range, 200V/V, Bidirectional, Zero-Drift, Low- or High-Side
+K current sense shunt monitor
+F http://www.ti.com/lit/ds/symlink/ina199.pdf
 $ENDCMP
 #
 #End Doc Library
