@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PESD1CAN
+D Dual Line CAN Bus Protector, 24Vrwm
+K can esd protection suppression transient
+F http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF
+$ENDCMP
+#
+#End Doc Library

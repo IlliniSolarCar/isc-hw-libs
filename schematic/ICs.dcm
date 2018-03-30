@@ -36,4 +36,10 @@ K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina199.pdf
 $ENDCMP
 #
+$CMP ISO1042DW
+D Isolated CAN Transceiver, 1Mbps
+K can transceiver isolated protected
+F http://www.ti.com/lit/ds/symlink/iso1042.pdf
+$ENDCMP
+#
 #End Doc Library
