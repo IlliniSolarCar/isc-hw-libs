@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AS1115-BSST
+D AS1115 LED Driver IC 64LED matrix driver with 16keys
+F http://ams.com/eng/Products/Lighting-Management/LED-Driver-ICs/AS1115.pdf
+$ENDCMP
+#
 $CMP INA199
 D Current Shunt Monitor −0.3 V to +26 V Common-Mode Range, Bidirectional, Zero-Drift, Low- or High-Side
 K current sense shunt monitor
@@ -22,6 +27,26 @@ $CMP INA199x3
 D Current Shunt Monitor −0.3 V to +26 V Common-Mode Range, 200V/V, Bidirectional, Zero-Drift, Low- or High-Side
 K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina199.pdf
+$ENDCMP
+#
+$CMP MAX11646EUA+
+D Analog to Digital Converters - ADC 10-Bit 2Ch 94.4ksps 5.5V Precision ADC
+F https://datasheets.maximintegrated.com/en/ds/MAX11646-MAX11647.pdf
+$ENDCMP
+#
+$CMP PCA9555D
+D PCA9555D, I/O Expander 16bit 16-channel 400kHz I2C, SMBus, 24-Pin SOIC
+F http://www.nxp.com/documents/data_sheet/PCA9555.pdf
+$ENDCMP
+#
+$CMP PCA9615DP
+D Buffer, ReDriver 2 Channel 400kHz 10-TSSOP
+F http://www.nxp.com/docs/en/data-sheet/PCA9615.pdf
+$ENDCMP
+#
+$CMP REF3030AIDBZT
+D Texas Instruments REF3030AIDBZT, Series Voltage Reference 3V, 0.2% 7 V max., 3-Pin SOT-23
+F http://www.ti.com/lit/gpn/ref3030
 $ENDCMP
 #
 #End Doc Library
