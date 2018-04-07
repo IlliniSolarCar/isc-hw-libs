@@ -5,10 +5,4 @@ D NXP Semiconductiors LPC1549 100-Pin
 K uC
 $ENDCMP
 #
-$CMP LPC1549JBD48
-D 32-bit ARM Cortex-M3 microcontroller, 256KB flash, 36kB SRAM
-K ARM, 32-bit, Cortex-M3, M3, NXP, microcontroller
-F https://www.nxp.com/docs/en/data-sheet/LPC15XX.pdf
-$ENDCMP
-#
 #End Doc Library

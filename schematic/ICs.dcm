@@ -24,10 +24,4 @@ K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina199.pdf
 $ENDCMP
 #
-$CMP ISO1050DUB
-D CAN Transceiver 1Mbit/s ISO 11898-2 Silent-Mode 8pins SOIC
-K CAN, transceiver
-F http://www.ti.com/lit/ds/symlink/iso1050.pdf
-$ENDCMP
-#
 #End Doc Library
