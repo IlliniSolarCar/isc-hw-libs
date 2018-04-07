@@ -396,12 +396,6 @@ K schottky diode common cathode
 F http://www.diodes.com/_files/datasheets/ds11005.pdf
 $ENDCMP
 #
-$CMP BAT54H
-D 30V 200mA Schottky diode
-K diode Schottky
-F https://assets.nexperia.com/documents/data-sheet/BAT54H.pdf
-$ENDCMP
-#
 $CMP BAT54S
 D schottky barrier diode
 K schottky diode
