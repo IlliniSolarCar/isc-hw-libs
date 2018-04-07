@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LTC4411
+D IC OR CTRLR SRC SELECT TSOT23-5
+$ENDCMP
+#
 $CMP PESD1CAN
 D Dual Line CAN Bus Protector, 24Vrwm
 K can esd protection suppression transient
