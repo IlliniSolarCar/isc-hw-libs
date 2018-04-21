@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +3.000V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP SC10-21SRWA
 D KINGBRIGHT - SC10-21SRWA - LED DISPLAY, 1.0", RED, CC
 F https://componentsearchengine.com/Datasheets/2/SC10-21SRWA.pdf

@@ -29,7 +29,7 @@ K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina199.pdf
 $ENDCMP
 #
-$CMP MAX11646EUA+
+$CMP MAX11647EUA+
 D Analog to Digital Converters - ADC 10-Bit 2Ch 94.4ksps 5.5V Precision ADC
 F https://datasheets.maximintegrated.com/en/ds/MAX11646-MAX11647.pdf
 $ENDCMP
