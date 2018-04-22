@@ -1,8 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP LPC1549JBD100
-D NXP Semiconductiors LPC1549 100-Pin
-K uC
+D IC MCU 32BIT 256KB FLASH 100LQFP
+K uC micro microcontroller processor embedded
+$ENDCMP
+#
+$CMP LPC1549JBD64
+D IC MCU 32BIT 256KB FLASH 64LQFP
+K uC micro microcontroller processor embedded
 $ENDCMP
 #
 #End Doc Library
