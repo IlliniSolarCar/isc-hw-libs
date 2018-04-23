@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AL8860MP-13
+D LED Driver IC 1 Output DC DC Regulator Step-Down (Buck) Analog, PWM Dimming 1.5A 8-MSOP-EP
+K led driver buck 1.5a switching pwm analog
+F https://www.diodes.com/assets/Datasheets/AL8860.pdf
+$ENDCMP
+#
+$CMP AL8860WT-7
+D LED Driver IC 1 Output DC DC Regulator Step-Down (Buck) Analog, PWM Dimming 1A TSOT-25
+K led driver buck 1a switching pwm analog
+F https://www.diodes.com/assets/Datasheets/AL8860.pdf
+$ENDCMP
+#
 $CMP INA199
 D Current Shunt Monitor −0.3 V to +26 V Common-Mode Range, Bidirectional, Zero-Drift, Low- or High-Side
 K current sense shunt monitor
@@ -22,6 +34,12 @@ $CMP INA199x3
 D Current Shunt Monitor −0.3 V to +26 V Common-Mode Range, 200V/V, Bidirectional, Zero-Drift, Low- or High-Side
 K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina199.pdf
+$ENDCMP
+#
+$CMP ISO1042DW
+D Isolated CAN Transceiver, 1Mbps
+K can transceiver isolated protected
+F http://www.ti.com/lit/ds/symlink/iso1042.pdf
 $ENDCMP
 #
 #End Doc Library
