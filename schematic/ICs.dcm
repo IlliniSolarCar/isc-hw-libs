@@ -12,6 +12,11 @@ K led driver buck 1a switching pwm analog
 F https://www.diodes.com/assets/Datasheets/AL8860.pdf
 $ENDCMP
 #
+$CMP GTL2003
+D 8-bit bidirectional low voltage translator
+K translator
+$ENDCMP
+#
 $CMP INA199
 D Current Shunt Monitor −0.3 V to +26 V Common-Mode Range, Bidirectional, Zero-Drift, Low- or High-Side
 K current sense shunt monitor
@@ -40,6 +45,21 @@ $CMP ISO1042DW
 D Isolated CAN Transceiver, 1Mbps
 K can transceiver isolated protected
 F http://www.ti.com/lit/ds/symlink/iso1042.pdf
+$ENDCMP
+#
+$CMP MPU-9250
+D Inertial Measurement Unit, gyroscope, accelerometer, magnetometer, 24-pin 3x3mm QFN
+K imu, gyroscope, accelerometer, accelerometer, magnetometer
+$ENDCMP
+#
+$CMP PCA9615
+D 2-ch dI2C bus buffer with hot-swap logic, chA 3.0V to 5.0V, chB 2.3V to 5.0V
+K differential, dI2C, I2C
+$ENDCMP
+#
+$CMP WE-TVS_82400102
+D ESD protection for high speed I/O channels and VDD, 6V, 6A pk
+K esd, tvs, diode
 $ENDCMP
 #
 #End Doc Library
