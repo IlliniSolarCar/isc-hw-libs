@@ -12,6 +12,11 @@ K led driver buck 1a switching pwm analog
 F https://www.diodes.com/assets/Datasheets/AL8860.pdf
 $ENDCMP
 #
+$CMP DMG1016V
+D CMOS Pair, 530 mW, 640 mA PMOS, 870 mA NMOS, SOT-563
+K cmos, nmos, pmos, isc
+$ENDCMP
+#
 $CMP GTL2003
 D 8-bit bidirectional low voltage translator
 K translator
