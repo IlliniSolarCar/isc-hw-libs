@@ -17,6 +17,11 @@ D Integrated load switch, CMOS Pair, 3-20V input, V_on_off 1.5-8V, 1.5A cont., 7
 K cmos, nmos, pmos, isc
 $ENDCMP
 #
+$CMP GF126S
+D DPDT, 125V, 3A
+K DPDT, switch, isc
+$ENDCMP
+#
 $CMP GTL2003
 D 8-bit bidirectional low voltage translator
 K translator
@@ -66,11 +71,6 @@ $ENDCMP
 $CMP MPU-9250
 D Inertial Measurement Unit, gyroscope, accelerometer, magnetometer, 24-pin 3x3mm QFN
 K imu, gyroscope, accelerometer, accelerometer, magnetometer
-$ENDCMP
-#
-$CMP MSS200G
-D DPDT, 20V, 0.4VA,
-K DPDT, switch
 $ENDCMP
 #
 $CMP PCA9615
