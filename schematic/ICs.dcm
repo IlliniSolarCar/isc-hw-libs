@@ -12,8 +12,8 @@ K led driver buck 1a switching pwm analog
 F https://www.diodes.com/assets/Datasheets/AL8860.pdf
 $ENDCMP
 #
-$CMP DMG1016V
-D CMOS Pair, 530 mW, 640 mA PMOS, 870 mA NMOS, SOT-563
+$CMP FDC6324L
+D Integrated load switch, CMOS Pair, 3-20V input, V_on_off 1.5-8V, 1.5A cont., 700 mW, SuperSOT-6
 K cmos, nmos, pmos, isc
 $ENDCMP
 #
