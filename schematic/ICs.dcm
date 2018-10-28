@@ -17,11 +17,6 @@ D Integrated load switch, CMOS Pair, 3-20V input, V_on_off 1.5-8V, 1.5A cont., 7
 K cmos, nmos, pmos, isc
 $ENDCMP
 #
-$CMP GF126S
-D DPDT, 125V, 3A
-K DPDT, switch, isc
-$ENDCMP
-#
 $CMP GTL2003
 D 8-bit bidirectional low voltage translator
 K translator

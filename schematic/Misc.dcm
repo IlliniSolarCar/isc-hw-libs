@@ -5,4 +5,9 @@ D 3.000V Reference
 K reference
 $ENDCMP
 #
+$CMP GF126S
+D DPDT, 125V, 3A
+K DPDT, switch, isc
+$ENDCMP
+#
 #End Doc Library
