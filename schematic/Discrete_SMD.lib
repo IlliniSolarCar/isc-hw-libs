@@ -48,4 +48,24 @@ X K 2 50 250 100 D 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Polyfuse
+#
+DEF Polyfuse F 0 0 N Y 1 F N
+F0 "F" 0 -100 50 H V C CNN
+F1 "Polyfuse" 0 100 50 H V C CNN
+F2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Wave" -450 -850 50 H I L CNN
+F3 "http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1206l_datasheet.pdf.pdf" 200 -700 50 H I C CNN
+$FPLIST
+ *polyfuse*
+ *PTC*
+$ENDFPLIST
+DRAW
+S -100 -30 100 30 0 1 10 N
+P 2 0 1 0 -100 0 100 0 N
+P 4 0 1 0 -100 -60 -60 -60 60 60 100 60 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
