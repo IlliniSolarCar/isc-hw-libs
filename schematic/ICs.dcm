@@ -12,6 +12,16 @@ K led driver buck 1a switching pwm analog
 F https://www.diodes.com/assets/Datasheets/AL8860.pdf
 $ENDCMP
 #
+$CMP FDC6324L
+D Integrated load switch, CMOS Pair, 3-20V input, V_on_off 1.5-8V, 1.5A cont., 700 mW, SuperSOT-6
+K cmos, nmos, pmos, isc
+$ENDCMP
+#
+$CMP GTL2003
+D 8-bit bidirectional low voltage translator
+K translator
+$ENDCMP
+#
 $CMP ICE1PCS01
 D Standalone PFC Controller in CCM, DIP-8/SOIC-8
 K SMPS pfc controller
@@ -28,16 +38,6 @@ $CMP ICE2PCS05
 D Standalone PFC Controller in CCM, DIP-8/SOIC-8
 K SMPS pfc controller
 F https://www.infineon.com/dgdl/Infineon-ICE2PCS05-DS-v01_02-en.pdf?fileId=db3a30431c69a49d011cdfb46a834373
-$ENDCMP
-#
-$CMP FDC6324L
-D Integrated load switch, CMOS Pair, 3-20V input, V_on_off 1.5-8V, 1.5A cont., 700 mW, SuperSOT-6
-K cmos, nmos, pmos, isc
-$ENDCMP
-#
-$CMP GTL2003
-D 8-bit bidirectional low voltage translator
-K translator
 $ENDCMP
 #
 $CMP INA199
