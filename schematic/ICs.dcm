@@ -96,4 +96,22 @@ D ESD protection for high speed I/O channels and VDD, 6V, 6A pk
 K esd, tvs, diode
 $ENDCMP
 #
+$CMP ICE1PCS01
+D Standalone PFC Controller in CCM, DIP-8/SOIC-8
+K SMPS pfc controller
+F https://www.infineon.com/dgdl/Infineon-ICE1PCS01-DS-v01_03-en.pdf?fileId=db3a304412b407950112b427c6f13cc7
+$ENDCMP
+#
+$CMP ICE2PCS01
+D Standalone PFC Controller in CCM, DIP-8/SOIC-8
+K SMPS pfc controller
+F https://www.infineon.com/dgdl/Infineon-ICE2PCS01-DS-v02_03-en.pdf?fileId=db3a304412b407950112b427caa43ccf
+$ENDCMP
+#
+$CMP ICE2PCS05
+D Standalone PFC Controller in CCM, DIP-8/SOIC-8
+K SMPS pfc controller
+F https://www.infineon.com/dgdl/Infineon-ICE2PCS05-DS-v01_02-en.pdf?fileId=db3a30431c69a49d011cdfb46a834373
+$ENDCMP
+#
 #End Doc Library
