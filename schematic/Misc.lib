@@ -16,6 +16,59 @@ X +3.000V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# CL-SB-22A
+#
+DEF CL-SB-22A S 0 40 Y Y 1 F N
+F0 "S" -100 300 50 H V C CNN
+F1 "CL-SB-22A" 0 -300 50 H V C CNN
+F2 "layout:DPDT_NIDEC_6_pin_SMD_1.6_x_1.2_pads" -100 -800 50 H I C CNN
+F3 "https://www.nidec-copal-electronics.com/e/catalog/switch/cl-sb.pdf" -100 -800 50 H I C CNN
+DRAW
+C -84 -150 15 1 1 3 N
+C -84 50 15 1 1 3 N
+C -83 -49 16 1 1 3 N
+C -83 151 15 1 1 3 N
+C 33 -100 15 1 1 3 N
+C 33 100 15 1 1 3 N
+S -150 250 100 -250 1 1 10 f
+P 2 1 1 6 16 100 -65 150 N
+P 2 1 1 6 17 -102 -65 -50 N
+X ~ 1 -300 150 200 R 50 50 1 1 P
+X ~ 2 250 100 200 L 50 50 1 1 P
+X ~ 3 -300 50 200 R 50 50 1 1 P
+X ~ 4 -300 -50 200 R 50 50 1 1 P
+X ~ 5 250 -100 200 L 50 50 1 1 P
+X ~ 6 -300 -150 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GF126S
+#
+DEF GF126S S 0 40 Y Y 1 F N
+F0 "S" -110 314 50 H V L TNN
+F1 "GF126S" 0 -350 50 H V C BNN
+F2 "layout:DPDT_6pin_THT_4.60mm_Pitch_CWIndustries" 50 -650 50 H I C CNN
+F3 "http://www.cwind.com/pdf/MiniatureSwitches_Cat_S2120-III_03.pdf" 0 -750 50 H I C CNN
+F4 "https://media.digikey.com/pdf/Data%20Sheets/CW%20Industries%20PDFs/GF-126-0159.pdf" 0 -850 50 H I C CNN "Footprint Layout"
+DRAW
+C -34 -150 15 0 1 3 N
+C -34 50 15 0 1 3 N
+C -33 -49 16 0 1 3 N
+C -33 151 15 0 1 3 N
+C 83 -100 15 0 1 3 N
+C 83 100 15 0 1 3 N
+S -100 250 150 -250 0 1 10 f
+P 2 0 1 6 66 100 -15 150 N
+P 2 0 1 6 67 -102 -15 -50 N
+X ~ 1 -250 -50 200 R 50 50 1 1 P
+X ~ 2 300 -100 200 L 50 50 1 1 P
+X ~ 3 -250 -150 200 R 50 50 1 1 P
+X ~ 4 -250 50 200 R 50 50 1 1 P
+X ~ 5 300 100 200 L 50 50 1 1 P
+X ~ 6 -250 150 200 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Logo
 #
 DEF Logo MK 0 40 Y Y 1 F N

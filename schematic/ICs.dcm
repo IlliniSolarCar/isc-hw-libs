@@ -68,11 +68,6 @@ D Inertial Measurement Unit, gyroscope, accelerometer, magnetometer, 24-pin 3x3m
 K imu, gyroscope, accelerometer, accelerometer, magnetometer
 $ENDCMP
 #
-$CMP MSS200G
-D DPDT, 20V, 0.4VA,
-K DPDT, switch
-$ENDCMP
-#
 $CMP PCA9615
 D 2-ch dI2C bus buffer with hot-swap logic, chA 3.0V to 5.0V, chB 2.3V to 5.0V
 K differential, dI2C, I2C
