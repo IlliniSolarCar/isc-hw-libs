@@ -118,4 +118,10 @@ D ESD protection for high speed I/O channels and VDD, 6V, 6A pk
 K esd, tvs, diode
 $ENDCMP
 #
+$CMP LTC6811-1
+D Multicell Battery Stack Monitor, 12-cell max, multi-chemistry, integrated balancing, stackable, SPI, isoSPI
+K battery balance afe
+F https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb.pdf
+$ENDCMP
+#
 #End Doc Library
