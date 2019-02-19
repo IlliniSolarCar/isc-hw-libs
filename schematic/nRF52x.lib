@@ -6,8 +6,9 @@ EESchema-LIBRARY Version 2.4
 DEF BL651 U 0 40 Y Y 1 F N
 F0 "U" 900 -150 50 H V C BNN
 F1 "BL651" 900 -50 50 H V C CNN
-F2 "" 0 -100 50 H I C CNN
-F3 "" 0 -100 50 H I C CNN
+F2 "nRF528xx:BL651" 0 -100 50 H I C CNN
+F3 "https://assets.lairdtech.com/home/brandworld/files/Datasheet%20-%20BL651_prelim%20v0_03.pdf" 0 -100 50 H I C CNN
+F4 "453-00005" 1000 -50 50 H I C CNN "MPN"
 DRAW
 S 0 0 1800 2700 0 1 0 f
 X GND 1 1900 500 100 L 50 50 1 1 W
