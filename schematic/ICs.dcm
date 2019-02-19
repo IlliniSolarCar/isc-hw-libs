@@ -64,6 +64,12 @@ K current sense shunt monitor
 F http://www.ti.com/lit/ds/symlink/ina199.pdf
 $ENDCMP
 #
+$CMP IRF7503TRPBF
+D Dual NMOS transistor, 6 pin package
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
 $CMP ISO1042DW
 D Isolated CAN Transceiver, 1Mbps
 K can transceiver isolated protected

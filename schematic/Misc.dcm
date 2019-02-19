@@ -5,6 +5,11 @@ D 3.000V Reference
 K reference
 $ENDCMP
 #
+$CMP CL-SB-22A
+D DPDT, 12V, 200mA
+K dpdt, isc
+$ENDCMP
+#
 $CMP GF126S
 D DPDT, 125V, 3A
 K DPDT, switch, isc
