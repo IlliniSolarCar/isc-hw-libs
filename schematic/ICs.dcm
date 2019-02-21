@@ -12,6 +12,11 @@ K led driver buck 1a switching pwm analog
 F https://www.diodes.com/assets/Datasheets/AL8860.pdf
 $ENDCMP
 #
+$CMP DT1042-04SO-7
+D 4 Channel Low Capacitance TVS Diode Array, Typical 9V at 10A 100ns
+K ESD TVS Diode
+$ENDCMP
+#
 $CMP FDC6324L
 D Integrated load switch, CMOS Pair, 3-20V input, V_on_off 1.5-8V, 1.5A cont., 700 mW, SuperSOT-6
 K cmos, nmos, pmos, isc
