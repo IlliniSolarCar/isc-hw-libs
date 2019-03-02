@@ -97,6 +97,11 @@ D 2-ch dI2C bus buffer with hot-swap logic, chA 3.0V to 5.0V, chB 2.3V to 5.0V
 K differential, dI2C, I2C
 $ENDCMP
 #
+$CMP RSO-1205S
+D 5V out, 200mA, 9-18V in, 1W 
+K DCDC DC-DC converter 
+$ENDCMP
+#
 $CMP WE-TVS_82400102
 D ESD protection for high speed I/O channels and VDD, 6V, 6A pk
 K esd, tvs, diode
