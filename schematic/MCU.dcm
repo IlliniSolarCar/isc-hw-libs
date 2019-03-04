@@ -47,7 +47,7 @@ $ENDCMP
 #
 $CMP LPC1549JBD48
 D IC MCU 32BIT 256KB FLASH 48LQFP
-K uC micro microcontroller processor embedded
+K mcu microcontroller nxp
 $ENDCMP
 #
 $CMP LPC1549JBD64
