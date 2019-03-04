@@ -98,8 +98,8 @@ K differential, dI2C, I2C
 $ENDCMP
 #
 $CMP RSO-1205S
-D 5V out, 200mA, 9-18V in, 1W 
-K DCDC DC-DC converter 
+D 5V out, 200mA, 9-18V in, 1W
+K DCDC DC-DC converter
 $ENDCMP
 #
 $CMP WE-TVS_82400102
