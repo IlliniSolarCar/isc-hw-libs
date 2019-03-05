@@ -126,7 +126,7 @@ K power-flag
 $ENDCMP
 #
 $CMP +3V
-D Power flag, +3.3V
+D Power flag, +3V
 K power-flag
 $ENDCMP
 #
