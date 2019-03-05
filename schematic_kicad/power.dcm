@@ -115,8 +115,18 @@ D Power flag, +3.3VP
 K power-flag
 $ENDCMP
 #
+$CMP +3.3V_0
+D Power flag, +3.3V
+K power-flag
+$ENDCMP
+#
 $CMP +36V
 D Power flag, +36V
+K power-flag
+$ENDCMP
+#
+$CMP +3V
+D Power flag, +3.3V
 K power-flag
 $ENDCMP
 #
