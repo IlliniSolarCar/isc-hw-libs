@@ -76,6 +76,11 @@ K can transceiver isolated protected
 F http://www.ti.com/lit/ds/symlink/iso1042.pdf
 $ENDCMP
 #
+$CMP ISO1042DWV
+D Isolated CAN Transceiver
+K isolated CAN transceiver
+$ENDCMP
+#
 $CMP MAX11647
 D 2-channel single-ended or 1-channel, differential, 10-bit ADC, I2C, 2.048V internal reference, 8-uMax package
 K adc, i2c
