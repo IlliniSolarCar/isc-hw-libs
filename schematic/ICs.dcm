@@ -102,6 +102,12 @@ D 2-ch dI2C bus buffer with hot-swap logic, chA 3.0V to 5.0V, chB 2.3V to 5.0V
 K differential, dI2C, I2C
 $ENDCMP
 #
+$CMP R-78AA3.3-1.0
+D 1.0 Amp SMD SIngle Output Switching Regulator
+K recom smd converter regulator
+F https://www.recom-power.com/pdf/Innoline/R-78AAxx-1.0SMD.pdf
+$ENDCMP
+#
 $CMP RSO-1205S
 D 5V out, 200mA, 9-18V in, 1W
 K DCDC DC-DC converter
