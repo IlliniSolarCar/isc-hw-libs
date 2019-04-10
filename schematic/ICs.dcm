@@ -81,6 +81,18 @@ D Isolated CAN Transceiver
 K isolated CAN transceiver
 $ENDCMP
 #
+$CMP LTC6811-1
+D Multicell Battery Stack Monitor, 12-cell max, multi-chemistry, integrated balancing, stackable, SPI, isoSPI
+K battery balance afe
+F https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb.pdf
+$ENDCMP
+#
+$CMP LTC6820xMS
+D SPI to DiffSPI communication interface
+K diffspi spi isolation
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6820fb.pdf
+$ENDCMP
+#
 $CMP MAX11647
 D 2-channel single-ended or 1-channel, differential, 10-bit ADC, I2C, 2.048V internal reference, 8-uMax package
 K adc, i2c
@@ -116,12 +128,6 @@ $ENDCMP
 $CMP WE-TVS_82400102
 D ESD protection for high speed I/O channels and VDD, 6V, 6A pk
 K esd, tvs, diode
-$ENDCMP
-#
-$CMP LTC6811-1
-D Multicell Battery Stack Monitor, 12-cell max, multi-chemistry, integrated balancing, stackable, SPI, isoSPI
-K battery balance afe
-F https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb.pdf
 $ENDCMP
 #
 #End Doc Library
