@@ -120,9 +120,22 @@ K recom smd converter regulator
 F https://www.recom-power.com/pdf/Innoline/R-78AAxx-1.0SMD.pdf
 $ENDCMP
 #
-$CMP RSO-1205S
+$CMP RS-1205S
+D 9V out, 200mA, 9-18V in, 1W
+K DCDC DC-DC converter
+F https://recom-power.com/pdf/Econoline/RS.pdf
+$ENDCMP
+#
+$CMP RS-1209S
 D 5V out, 200mA, 9-18V in, 1W
 K DCDC DC-DC converter
+F https://recom-power.com/pdf/Econoline/RS.pdf
+$ENDCMP
+#
+$CMP RSO-1205S
+D 5V out, 200mA, 9-18V in, 1W, Medical
+K DCDC DC-DC converter
+F https://recom-power.com/pdf/Econoline/RSO.pdf
 $ENDCMP
 #
 $CMP WE-TVS_82400102
