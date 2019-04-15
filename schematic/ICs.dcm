@@ -79,6 +79,7 @@ $ENDCMP
 $CMP ISO1042DWV
 D Isolated CAN Transceiver
 K isolated CAN transceiver
+F https://www.ti.com/lit/ds/symlink/iso1042.pdf
 $ENDCMP
 #
 $CMP MAX11647
