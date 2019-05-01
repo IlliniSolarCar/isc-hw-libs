@@ -81,6 +81,18 @@ D Isolated CAN Transceiver
 K isolated CAN transceiver
 $ENDCMP
 #
+$CMP LTC2952
+D Pushbutton powerpath controller with supervisor
+K powerpath pushbutton button supervisor
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2952fb.pdf
+$ENDCMP
+#
+$CMP LTC4331
+D I2C Slave Device Extender Over Rugged Differential Link
+K differential I2C SMBus
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4331.pdf
+$ENDCMP
+#
 $CMP LTC6811-1
 D Multicell Battery Stack Monitor, 12-cell max, multi-chemistry, integrated balancing, stackable, SPI, isoSPI
 K battery balance afe
