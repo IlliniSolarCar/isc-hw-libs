@@ -87,6 +87,30 @@ D Isolated CAN Transceiver
 K isolated CAN transceiver
 $ENDCMP
 #
+$CMP LTC2952
+D Pushbutton powerpath controller with supervisor
+K powerpath pushbutton button supervisor
+F https://www.analog.com/media/en/technical-documentation/data-sheets/2952fb.pdf
+$ENDCMP
+#
+$CMP LTC4331
+D I2C Slave Device Extender Over Rugged Differential Link
+K differential I2C SMBus
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4331.pdf
+$ENDCMP
+#
+$CMP LTC6811-1
+D Multicell Battery Stack Monitor, 12-cell max, multi-chemistry, integrated balancing, stackable, SPI, isoSPI
+K battery balance afe
+F https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb.pdf
+$ENDCMP
+#
+$CMP LTC6820xMS
+D SPI to DiffSPI communication interface
+K diffspi spi isolation
+F https://www.analog.com/media/en/technical-documentation/data-sheets/6820fb.pdf
+$ENDCMP
+#
 $CMP MAX11647
 D 2-channel single-ended or 1-channel, differential, 10-bit ADC, I2C, 2.048V internal reference, 8-uMax package
 K adc, i2c
@@ -120,9 +144,22 @@ K recom smd converter regulator
 F https://www.recom-power.com/pdf/Innoline/R-78AAxx-1.0SMD.pdf
 $ENDCMP
 #
-$CMP RSO-1205S
+$CMP RS-1205S
+D 9V out, 200mA, 9-18V in, 1W
+K DCDC DC-DC converter
+F https://recom-power.com/pdf/Econoline/RS.pdf
+$ENDCMP
+#
+$CMP RS-1209S
 D 5V out, 200mA, 9-18V in, 1W
 K DCDC DC-DC converter
+F https://recom-power.com/pdf/Econoline/RS.pdf
+$ENDCMP
+#
+$CMP RSO-1205S
+D 5V out, 200mA, 9-18V in, 1W, Medical
+K DCDC DC-DC converter
+F https://recom-power.com/pdf/Econoline/RSO.pdf
 $ENDCMP
 #
 $CMP WE-TVS_82400102

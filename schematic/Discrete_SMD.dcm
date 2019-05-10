@@ -11,4 +11,9 @@ K can esd protection suppression transient
 F http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF
 $ENDCMP
 #
+$CMP SM51108PEL
+D LAN 10/100 Base-Tx VoIP Transformer Module
+K isoSPI lan ethernet choke transformer
+$ENDCMP
+#
 #End Doc Library
