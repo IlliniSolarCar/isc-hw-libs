@@ -12,6 +12,12 @@ K led driver buck 1a switching pwm analog
 F https://www.diodes.com/assets/Datasheets/AL8860.pdf
 $ENDCMP
 #
+$CMP BTS5010-1EKB
+D Smart High-Side Power Switch, PROFET, Single, 200mOhm, 1.5A, 36V, DSO-8
+K infineon power switch
+F http://www.infineon.com/dgdl/Infineon-BTS40K2-1EJC-DS-v01_00-EN.pdf?fileId=5546d462518ffd85015254ee4e601f99
+$ENDCMP
+#
 $CMP FDC6324L
 D Integrated load switch, CMOS Pair, 3-20V input, V_on_off 1.5-8V, 1.5A cont., 700 mW, SuperSOT-6
 K cmos, nmos, pmos, isc
@@ -124,6 +130,12 @@ $ENDCMP
 $CMP PCA9615
 D 2-ch dI2C bus buffer with hot-swap logic, chA 3.0V to 5.0V, chB 2.3V to 5.0V
 K differential, dI2C, I2C
+$ENDCMP
+#
+$CMP PCA9745B
+D 16 output SPI Low Side LED Driver
+K LED Driver
+F https://www.nxp.com/docs/en/data-sheet/PCA9745B.pdf
 $ENDCMP
 #
 $CMP R-78AA3.3-1.0
