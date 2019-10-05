@@ -6,18 +6,6 @@ K HCMOS SR
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT597.pdf
 $ENDCMP
 #
-$CMP 74HCT595
-D 8-bit serial in/out Shift Register 3-State Outputs
-K HCTMOS SR 3State
-F https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf
-$ENDCMP
-#
-$CMP 74LS595
-D 8-bit serial in/out Shift Register 3-State Outputs
-K TTL SR 3State
-F http://www.ti.com/lit/gpn/sn74ls595
-$ENDCMP
-#
 $CMP AL8860MP-13
 D LED Driver IC 1 Output DC DC Regulator Step-Down (Buck) Analog, PWM Dimming 1.5A 8-MSOP-EP
 K led driver buck 1.5a switching pwm analog
