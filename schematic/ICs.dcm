@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC589
+D 8-bit parallel- or serial-in, serial-out 8-bit shift register
+K HCMOS SR
+F http://noel.feld.cvut.cz/hw/motorola/books/dl129/pdf/mc74hc589rev6.pdf
+$ENDCMP
+#
 $CMP 74HC597
 D 8-bit parallel-in, serial-out 8-bit shift register
 K HCMOS SR
