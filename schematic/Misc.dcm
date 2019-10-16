@@ -5,6 +5,11 @@ D 3.000V Reference
 K reference
 $ENDCMP
 #
+$CMP +4.096V
+D 4.096V Reference
+K reference
+$ENDCMP
+#
 $CMP CL-SB-22A
 D DPDT, 12V, 200mA
 K dpdt, isc
