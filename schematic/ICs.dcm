@@ -86,7 +86,6 @@ $CMP ISO1042DWV
 D Isolated CAN Transceiver
 K isolated CAN transceiver
 F https://www.ti.com/lit/ds/symlink/iso1042.pdf
-
 $ENDCMP
 #
 $CMP LTC2952
@@ -134,14 +133,12 @@ D 2-ch dI2C bus buffer with hot-swap logic, chA 3.0V to 5.0V, chB 2.3V to 5.0V
 K differential, dI2C, I2C
 $ENDCMP
 #
-
 $CMP PCA9745B
 D 16 output SPI Low Side LED Driver
 K LED Driver
 F https://www.nxp.com/docs/en/data-sheet/PCA9745B.pdf
 $ENDCMP
 #
-
 $CMP R-78AA3.3-1.0
 D 1.0 Amp SMD SIngle Output Switching Regulator
 K recom smd converter regulator
