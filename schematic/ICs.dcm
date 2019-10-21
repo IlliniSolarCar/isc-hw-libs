@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADC121S021
+D ADC121S021 Single-Channel, 50- to 200-ksps, 12-Bit A/D Converter
+K ADC analog 12-bit converter A/D
+F http://www.ti.com/lit/ds/symlink/adc121s021.pdf
+$ENDCMP
+#
 $CMP AL8860MP-13
 D LED Driver IC 1 Output DC DC Regulator Step-Down (Buck) Analog, PWM Dimming 1.5A 8-MSOP-EP
 K led driver buck 1.5a switching pwm analog
