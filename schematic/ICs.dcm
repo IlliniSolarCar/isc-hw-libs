@@ -21,6 +21,12 @@ $ENDCMP
 $CMP DT1042-04SO-7
 D 4 Channel Low Capacitance TVS Diode Array, Typical 9V at 10A 100ns
 K ESD TVS Diode
+F https://www.diodes.com/assets/Datasheets/DT1042-04SO.pdf
+$ENDCMP
+#
+$CMP D_TVS_4-Channel
+D 4 Channel Low Capacitance TVS Diode Array,
+K ESD TVS Diode 4-Channel Array DT1042-04SO WE-TVS
 $ENDCMP
 #
 $CMP FDC6324L
