@@ -1,5 +1,6 @@
 EESchema-DOCLIB  Version 2.0
 #
+<<<<<<< HEAD
 $CMP 74HC589
 D 8-bit parallel- or serial-in, serial-out 8-bit shift register
 K HCMOS SR
@@ -10,6 +11,12 @@ $CMP 74HC597
 D 8-bit parallel-in, serial-out 8-bit shift register
 K HCMOS SR
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT597.pdf
+=======
+$CMP AH1894
+D Programmable Hall-Effect Switch
+K programmable hall effect switch
+F https://www.diodes.com/assets/Datasheets/AH1894.pdf
+>>>>>>> 55ba83988e630f34646f1f85ab7d4a3ceff2db13
 $ENDCMP
 #
 $CMP AL8860MP-13
