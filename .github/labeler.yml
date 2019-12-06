@@ -5,8 +5,8 @@ footprint:
 
 # Add symbol label to anything that changes symbol libraries
 symbol: 
-  - ./**/*.dcm
-  - ./**/*.lib
+  - *.dcm
+  - *.lib
 
 # Add 3d model label to any changes to 3d models
 3d model:
