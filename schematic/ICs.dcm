@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC589
+D 8-bit parallel- or serial-in, serial-out 8-bit shift register
+K HCMOS SR
+F http://noel.feld.cvut.cz/hw/motorola/books/dl129/pdf/mc74hc589rev6.pdf
+$ENDCMP
+#
+$CMP 74HC597
+D 8-bit parallel-in, serial-out 8-bit shift register
+K HCMOS SR
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT597.pdf
+$ENDCMP
+#
 $CMP AL8860MP-13
 D LED Driver IC 1 Output DC DC Regulator Step-Down (Buck) Analog, PWM Dimming 1.5A 8-MSOP-EP
 K led driver buck 1.5a switching pwm analog
