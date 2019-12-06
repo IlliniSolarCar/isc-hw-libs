@@ -18,6 +18,11 @@ K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS40K2-1EJC-DS-v01_00-EN.pdf?fileId=5546d462518ffd85015254ee4e601f99
 $ENDCMP
 #
+$CMP DSM7TAxx1xxT
+D Thin Sufrace Mount Single Digit 7-Segment LED Numeric Display
+K 7 Segment, LED, SMD
+$ENDCMP
+#
 $CMP FDC6324L
 D Integrated load switch, CMOS Pair, 3-20V input, V_on_off 1.5-8V, 1.5A cont., 700 mW, SuperSOT-6
 K cmos, nmos, pmos, isc
