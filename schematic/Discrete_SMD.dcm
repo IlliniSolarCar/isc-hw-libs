@@ -1,10 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP DSM7TA28101T
-D SMD 7 Segment Displays
-F https://vcclite.com/wp-content/uploads/wpallimport/files/files/DSM7TA28106T.pdf
-$ENDCMP
-#
 $CMP LTC4411
 D Ideal diode, 2.6A, 2.6V-5.5V
 K diode, controller,
