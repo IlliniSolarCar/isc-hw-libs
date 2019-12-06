@@ -14,8 +14,8 @@ symbol:
 
 # Add kicad libraries label to anything that changes kicads libraries
 kicad libraries:
-  - footprint_kicad/*
-  - schematic_kicad/*
+  - footprint_kicad/**/*
+  - schematic_kicad/**/*
 
 # Add git label to anything that changes a repo config
 git:
