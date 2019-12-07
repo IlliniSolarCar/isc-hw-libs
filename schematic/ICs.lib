@@ -2,6 +2,7 @@ EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 74HC589
 #
 DEF 74HC589 U 0 20 Y Y 1 F N
@@ -96,6 +97,8 @@ X OUTPUT 5 400 0 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
+=======
+>>>>>>> parent of 03befac... Added breakpad symbol
 # AL8860MP-13
 #
 DEF AL8860MP-13 U 0 10 Y Y 1 F N

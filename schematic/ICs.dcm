@@ -1,6 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 <<<<<<< HEAD
+<<<<<<< HEAD
 $CMP 74HC589
 D 8-bit parallel- or serial-in, serial-out 8-bit shift register
 K HCMOS SR
@@ -19,6 +20,8 @@ F https://www.diodes.com/assets/Datasheets/AH1894.pdf
 >>>>>>> 55ba83988e630f34646f1f85ab7d4a3ceff2db13
 $ENDCMP
 #
+=======
+>>>>>>> parent of 03befac... Added breakpad symbol
 $CMP AL8860MP-13
 D LED Driver IC 1 Output DC DC Regulator Step-Down (Buck) Analog, PWM Dimming 1.5A 8-MSOP-EP
 K led driver buck 1.5a switching pwm analog
