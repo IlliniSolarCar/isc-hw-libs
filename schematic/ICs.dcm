@@ -105,6 +105,11 @@ K isolated CAN transceiver
 F https://www.ti.com/lit/ds/symlink/iso1042.pdf
 $ENDCMP
 #
+$CMP LD39050PU33R
+D 500 mA Low Dropout Voltage Regulator, Fixed Output 3.3V
+F https://www.st.com/resource/en/datasheet/ld39050.pdf
+$ENDCMP
+#
 $CMP LTC2952
 D Pushbutton powerpath controller with supervisor
 K powerpath pushbutton button supervisor
@@ -145,6 +150,12 @@ D Inertial Measurement Unit, gyroscope, accelerometer, magnetometer, 24-pin 3x3m
 K imu, gyroscope, accelerometer, accelerometer, magnetometer
 $ENDCMP
 #
+$CMP NEO-M8M
+D uBlox M8M variant GNSS receiver
+K gps
+F https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf
+$ENDCMP
+#
 $CMP PCA9615
 D 2-ch dI2C bus buffer with hot-swap logic, chA 3.0V to 5.0V, chB 2.3V to 5.0V
 K differential, dI2C, I2C
@@ -178,6 +189,12 @@ $CMP RSO-1205S
 D 5V out, 200mA, 9-18V in, 1W, Medical
 K DCDC DC-DC converter
 F https://recom-power.com/pdf/Econoline/RSO.pdf
+$ENDCMP
+#
+$CMP USBLC6-2
+D low capacitance ESD protection
+K ESD
+F https://www.st.com/resource/en/datasheet/usblc6-2.pdf
 $ENDCMP
 #
 $CMP WE-TVS_82400102
