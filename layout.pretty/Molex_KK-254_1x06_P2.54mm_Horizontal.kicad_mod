@@ -1,4 +1,4 @@
-(module Molex_KK-254_1x06_P2.54mm_Horizontal (layer F.Cu) (tedit 5E0FAA7B)
+(module Molex_KK-254_1x06_P2.54mm_Horizontal (layer F.Cu) (tedit 5E113A1D)
   (descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
   (tags "connector Molex KK-254 side entry")
   (fp_text reference REF** (at 6.35 -2.54) (layer F.SilkS)
@@ -84,7 +84,7 @@
   (pad 4 thru_hole oval (at 7.62 0) (size 1.74 2.2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 5 thru_hole oval (at 10.16 0) (size 1.74 2.2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 6 thru_hole oval (at 12.7 0) (size 1.74 2.2) (drill 1.2) (layers *.Cu *.Mask))
-  (model ${ISC_SYMBOL_DIR}/packages3d/Molex_90Grad_6er.STEP
+  (model ${ISC_SYMBOL_DIR}/packages3d/Molex_KK-2.54mm-horizontal_6er.STEP
     (offset (xyz -4.15 -6.85 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
