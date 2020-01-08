@@ -1,4 +1,4 @@
-(module DSUB-37_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm (layer F.Cu) (tedit 5CAD2480)
+(module DSUB-37_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm (layer F.Cu) (tedit 5E15373D)
   (descr "37-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, male, pitch 2.77x2.84mm, pin-PCB-offset 9.9mm, distance of mounting holes 63.5mm, distance of mounting holes to PCB edge 11.32mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
   (tags "37-pin D-Sub connector horizontal angled 90deg THT male pitch 2.77x2.84mm pin-PCB-offset 9.9mm mounting-holes-distance 63.5mm mounting-hole-offset 63.5mm")
   (fp_text reference J1 (at -31.725 -6.9) (layer F.SilkS)
@@ -90,7 +90,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KICAD_SYMBOL_DIR}/packages3d/Amphenol_sd37p13a4gl00lf.stp
+  (model ${ISC_SYMBOL_DIR}/packages3d/Amphenol_sd37p13a4gl00lf.stp
     (offset (xyz 0.05 -8.449999999999999 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
