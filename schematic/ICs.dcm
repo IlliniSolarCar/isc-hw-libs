@@ -145,6 +145,30 @@ D Inertial Measurement Unit, gyroscope, accelerometer, magnetometer, 24-pin 3x3m
 K imu, gyroscope, accelerometer, accelerometer, magnetometer
 $ENDCMP
 #
+$CMP NCP551
+D IC REG LINEAR 150MA 5TSOP
+K LDO 150mA SOT23-5
+F https://www.onsemi.com/pub/Collateral/NCP551-D.PDF
+$ENDCMP
+#
+$CMP NCP551SN18T1G
+D IC REG 1.8V LINEAR 150MA 5TSOP
+K LDO 150mA SOT23-5 1.8V 1V8
+F https://www.onsemi.com/pub/Collateral/NCP551-D.PDF
+$ENDCMP
+#
+$CMP NCP551SN33T1G
+D IC REG 3.3V LINEAR 150MA 5TSOP
+K LDO 150mA SOT23-5 3.3V 3V3
+F https://www.onsemi.com/pub/Collateral/NCP551-D.PDF
+$ENDCMP
+#
+$CMP NCP551SN50T1G
+D IC REG 5V LINEAR 150MA 5TSOP
+K LDO 150mA SOT23-5 5V
+F https://www.onsemi.com/pub/Collateral/NCP551-D.PDF
+$ENDCMP
+#
 $CMP PCA9615
 D 2-ch dI2C bus buffer with hot-swap logic, chA 3.0V to 5.0V, chB 2.3V to 5.0V
 K differential, dI2C, I2C
