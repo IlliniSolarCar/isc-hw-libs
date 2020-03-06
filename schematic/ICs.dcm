@@ -14,7 +14,7 @@ $ENDCMP
 #
 $CMP AIS2120SXTR
 D Accelerometer X, Y Axis ±120g 400Hz 8-SOIC
-K Accelerometer 
+K Accelerometer
 F https://www.st.com/content/ccc/resource/technical/document/datasheet/ae/89/e4/62/23/de/40/2a/DM00226343.pdf/files/DM00226343.pdf/jcr:content/translations/en.DM00226343.pdf
 $ENDCMP
 #
@@ -109,6 +109,12 @@ $CMP ISO1042DWV
 D Isolated CAN Transceiver
 K isolated CAN transceiver
 F https://www.ti.com/lit/ds/symlink/iso1042.pdf
+$ENDCMP
+#
+$CMP LM2940x-10
+D Low-dropout 1A voltage regulator, Input 10V to 26V, Out 10V
+K Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lm2940-n.pdf
 $ENDCMP
 #
 $CMP LTC2952
