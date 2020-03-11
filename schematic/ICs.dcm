@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC589
+D 8-bit parallel- or serial-in, serial-out 8-bit shift register
+K HCMOS SR
+F http://noel.feld.cvut.cz/hw/motorola/books/dl129/pdf/mc74hc589rev6.pdf
+$ENDCMP
+#
+$CMP 74HC597
+D 8-bit parallel-in, serial-out 8-bit shift register
+K HCMOS SR
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT597.pdf
+$ENDCMP
+#
 $CMP AH1894
 D Programmable Hall-Effect Switch
 K programmable hall effect switch
@@ -22,6 +34,11 @@ $CMP BTS5010-1EKB
 D Smart High-Side Power Switch, PROFET, Single, 200mOhm, 1.5A, 36V, DSO-8
 K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS40K2-1EJC-DS-v01_00-EN.pdf?fileId=5546d462518ffd85015254ee4e601f99
+$ENDCMP
+#
+$CMP DSM7TAxx1xxT
+D Thin Sufrace Mount Single Digit 7-Segment LED Numeric Display
+K 7 Segment, LED, SMD
 $ENDCMP
 #
 $CMP FDC6324L
@@ -91,6 +108,7 @@ $ENDCMP
 $CMP ISO1042DWV
 D Isolated CAN Transceiver
 K isolated CAN transceiver
+F https://www.ti.com/lit/ds/symlink/iso1042.pdf
 $ENDCMP
 #
 $CMP LTC2952
