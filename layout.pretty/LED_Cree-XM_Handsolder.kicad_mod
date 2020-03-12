@@ -1,4 +1,4 @@
-(module LED_Cree-XM_Handsolder (layer F.Cu) (tedit 5E6A90FF)
+(module LED_Cree-XM_Handsolder (layer F.Cu) (tedit 5E6A924A)
   (descr "LED Cree-XM https://www.cree.com/led-components/media/documents/XLampXML2.pdf")
   (tags "LED Cree XM")
   (attr smd)
