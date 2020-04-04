@@ -84,7 +84,19 @@ K N-Channel MOSFET
 F http://www.redrok.com/MOSFET_BS108_200V_250mA_8O_Vth1.5_TO-92.PDF
 $ENDCMP
 #
+$CMP BS108_copy
+D 0.25A Id, 200V Vds, N-Channel MOSFET, TO-92
+K N-Channel MOSFET
+F http://www.redrok.com/MOSFET_BS108_200V_250mA_8O_Vth1.5_TO-92.PDF
+$ENDCMP
+#
 $CMP BS170
+D 0.5A Id, 60V Vds, N-Channel MOSFET, TO-92
+K N-Channel MOSFET
+F http://www.fairchildsemi.com/ds/BS/BS170.pdf
+$ENDCMP
+#
+$CMP BS170_copy
 D 0.5A Id, 60V Vds, N-Channel MOSFET, TO-92
 K N-Channel MOSFET
 F http://www.fairchildsemi.com/ds/BS/BS170.pdf
@@ -388,6 +400,12 @@ $CMP BSP129
 D 0.35A Id, 240V Vds, N-Channel MOSFET, SOT-223
 K N-Channel MOSFET
 F https://www.infineon.com/dgdl/Infineon-BSP129-DS-v01_42-en.pdf?fileId=db3a30433c1a8752013c1fc296d2395f
+$ENDCMP
+#
+$CMP BSS123
+D 0.25A Id, 200V Vds, N-Channel MOSFET, TO-92
+K N-Channel MOSFET
+F http://www.onsemi.com/pub_link/Collateral/BS107-D.PDF
 $ENDCMP
 #
 $CMP BSS138
@@ -1530,6 +1548,12 @@ K N-Channel MOSFET
 F https://www.infineon.com/dgdl/irf6618pbf.pdf?fileId=5546d462533600a4015355e862c21a1b
 $ENDCMP
 #
+$CMP IRF6618_copy
+D 170A Id, 30V Vds, 2.2mOhm Rds, N-Channel MOSFET, DirectFET MT
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irf6618pbf.pdf?fileId=5546d462533600a4015355e862c21a1b
+$ENDCMP
+#
 $CMP IRF6620
 D 150A Id, 20V Vds, 2.7mOhm Rds, N-Channel MOSFET, DirectFET MX
 K N-Channel MOSFET
@@ -1723,6 +1747,12 @@ F https://www.infineon.com/dgdl/irf6725mpbf.pdf?fileId=5546d462533600a4015355ed5
 $ENDCMP
 #
 $CMP IRF6726M
+D 32A Id, 30V Vds, 1.7mOhm Rds, N-Channel MOSFET, DirectFET MT
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irf6726mpbf.pdf?fileId=5546d462533600a4015355ed61db1a98
+$ENDCMP
+#
+$CMP IRF6726M_copy
 D 32A Id, 30V Vds, 1.7mOhm Rds, N-Channel MOSFET, DirectFET MT
 K N-Channel MOSFET
 F https://www.infineon.com/dgdl/irf6726mpbf.pdf?fileId=5546d462533600a4015355ed61db1a98
@@ -1950,6 +1980,12 @@ K N-Channel MOSFET
 F https://www.infineon.com/dgdl/irf8301mpbf.pdf?fileId=5546d462533600a40153560d0e7a1d58
 $ENDCMP
 #
+$CMP IRF8301M_copy
+D 34A Id, 30V Vds, 1.5mOhm Rds, N-Channel MOSFET, DirectFET MT
+K N-Channel MOSFET
+F https://www.infineon.com/dgdl/irf8301mpbf.pdf?fileId=5546d462533600a40153560d0e7a1d58
+$ENDCMP
+#
 $CMP IRF8302M
 D 31A Id, 30V Vds, 1.8mOhm Rds, N-Channel MOSFET, DirectFET MX
 K N-Channel MOSFET
@@ -2026,6 +2062,11 @@ $CMP IRFI4212H
 D 11A Id, 100V Vds, 58mOhm, Dual Half Bridge N-channel MOSFET, TO-220-5
 K Dual N-Channel MOSFET
 F https://www.infineon.com/dgdl/irfi4212h-117p.pdf?fileId=5546d462533600a401535623fc841f7a
+$ENDCMP
+#
+$CMP IRFR010
+D 8.2A Id, 50V Vds, 160mOhm, Single N-Channel MOSFET
+F http://www.vishay.com/docs/91420/sihfr010.pdf
 $ENDCMP
 #
 $CMP IRL6283M
