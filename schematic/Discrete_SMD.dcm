@@ -28,6 +28,18 @@ K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
+$CMP Q_NMOS_DUAL_SGD
+D N-MOSFET transistor, source2/gate2/drain1/source1/gate1/drain2
+K transistor NMOS N-MOS N-MOSFET DUAL
+F ~
+$ENDCMP
+#
+$CMP Q_NMOS_DUAL_SGDD
+D N-MOSFET transistor, source2/gate2/source1/gate1/drain1/drain2
+K transistor NMOS N-MOS N-MOSFET DUAL
+F ~
+$ENDCMP
+#
 $CMP SM51108PEL
 D LAN 10/100 Base-Tx VoIP Transformer Module
 K isoSPI lan ethernet choke transformer
