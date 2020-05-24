@@ -5,6 +5,11 @@ D Ideal diode, 2.6A, 2.6V-5.5V
 K diode, controller,
 $ENDCMP
 #
+$CMP LTC4412
+D Low Lowss Power Path  2.5V-28V
+K diode, controller,
+$ENDCMP
+#
 $CMP PESD1CAN
 D Dual Line CAN Bus Protector, 24Vrwm
 K can esd protection suppression transient
