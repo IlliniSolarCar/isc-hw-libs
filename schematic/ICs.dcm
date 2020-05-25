@@ -12,16 +12,16 @@ K HCMOS SR
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT597.pdf
 $ENDCMP
 #
-$CMP AIS2120SXTR
-D Accelerometer X, Y Axis ±120g 400Hz 8-SOIC
-K Accelerometer
-F https://www.st.com/content/ccc/resource/technical/document/datasheet/ae/89/e4/62/23/de/40/2a/DM00226343.pdf/files/DM00226343.pdf/jcr:content/translations/en.DM00226343.pdf
-$ENDCMP
-#
 $CMP AH1894
 D Programmable Hall-Effect Switch
 K programmable hall effect switch
 F https://www.diodes.com/assets/Datasheets/AH1894.pdf
+$ENDCMP
+#
+$CMP AIS2120SXTR
+D Accelerometer X, Y Axis ±120g 400Hz 8-SOIC
+K Accelerometer
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/ae/89/e4/62/23/de/40/2a/DM00226343.pdf/files/DM00226343.pdf/jcr:content/translations/en.DM00226343.pdf
 $ENDCMP
 #
 $CMP AL8860MP-13
