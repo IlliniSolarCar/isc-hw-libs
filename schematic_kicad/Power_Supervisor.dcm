@@ -162,11 +162,6 @@ K supervisor reset push-pull
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf
 $ENDCMP
 #
-$CMP MCP809
-D Microcontroller supervisory circuit with push-pull output
-F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
-$ENDCMP
-#
 $CMP MIC811JUY
 D Power supply supervisor, Manual reset, Threshold 4.00V, SOT-143
 K Supervisor Reset

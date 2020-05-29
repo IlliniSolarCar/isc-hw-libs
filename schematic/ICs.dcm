@@ -145,7 +145,7 @@ K R POT
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22059b.pdf
 $ENDCMP
 #
-$CMP MPC809
+$CMP MCP809
 D Microcontroller supervisory circuit with push-pull output
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
 $ENDCMP
