@@ -1,4 +1,4 @@
-(module L_Bourns-SRN5040 (layer F.Cu) (tedit 5ECB4AF9)
+(module L_Bourns-SRN5040TA (layer F.Cu) (tedit 5ECB4AF9)
   (descr https://www.bourns.com/docs/Product-Datasheets/SRN5040TA.pdf)
   (tags "Bourns SRN5040, Inductor")
   (attr smd)
