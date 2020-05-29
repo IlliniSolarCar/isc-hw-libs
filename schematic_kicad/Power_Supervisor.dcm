@@ -203,11 +203,6 @@ K Supervisor Reset
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic811.pdf
 $ENDCMP
 #
-$CMP MPC809
-D Microcontroller supervisory circuit with push-pull output
-F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
-$ENDCMP
-#
 $CMP TCM809
 D Microcontroller reset monitor, active low output
 K supervisor reset push-pull
