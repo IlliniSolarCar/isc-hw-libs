@@ -1,6 +1,5 @@
-(module Relay_SPST_Omron_G6DN (layer F.Cu) (tedit 5ED04767)
-  (descr "Relay SPST-NO Omron Serie G5Q, http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf")
-  (tags "Relay SPST-NO Omron Serie G5Q")
+(module Relay_SPST_Omron_G6DN (layer F.Cu) (tedit 5ED582D5)
+  (tags "SPST Relay Omron 4pin")
   (fp_text reference K1 (at 9.52 -2.89 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
