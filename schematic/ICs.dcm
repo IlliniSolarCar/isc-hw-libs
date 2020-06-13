@@ -12,16 +12,16 @@ K HCMOS SR
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT597.pdf
 $ENDCMP
 #
-$CMP AIS2120SXTR
-D Accelerometer X, Y Axis ±120g 400Hz 8-SOIC
-K Accelerometer
-F https://www.st.com/content/ccc/resource/technical/document/datasheet/ae/89/e4/62/23/de/40/2a/DM00226343.pdf/files/DM00226343.pdf/jcr:content/translations/en.DM00226343.pdf
-$ENDCMP
-#
 $CMP AH1894
 D Programmable Hall-Effect Switch
 K programmable hall effect switch
 F https://www.diodes.com/assets/Datasheets/AH1894.pdf
+$ENDCMP
+#
+$CMP AIS2120SXTR
+D Accelerometer X, Y Axis ±120g 400Hz 8-SOIC
+K Accelerometer
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/ae/89/e4/62/23/de/40/2a/DM00226343.pdf/files/DM00226343.pdf/jcr:content/translations/en.DM00226343.pdf
 $ENDCMP
 #
 $CMP AL8860MP-13
@@ -54,6 +54,7 @@ $ENDCMP
 #
 $CMP FXOS8700CQ
 D 3-Axis Accelerometer and Magnetometer, I2C/SPI interface, 2/4/8g range
+K accelerometer magnetometer qfn IMU
 F https://media.digikey.com/pdf/Data%20Sheets/NXP%20PDFs/FXOS8700CQ.pdf
 $ENDCMP
 #
@@ -164,7 +165,8 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/22059b.pdf
 $ENDCMP
 #
 $CMP MCP809
-D Microcontroller supervisory circuit with push-pull output
+D Microcontroller supervisory circuit with push-pull output
+K supervisory power brown out
 F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
 $ENDCMP
 #
@@ -208,8 +210,9 @@ K LED Driver
 F https://www.nxp.com/docs/en/data-sheet/PCA9745B.pdf
 $ENDCMP
 #
-$CMP PCF2129
+$CMP PCF2129T
 D Realtime Clock/Calender I2C/SPI with integrated quartz crystal
+K rtc realtime clock spi i2c
 F https://www.nxp.com/docs/en/data-sheet/PCF2129.pdf
 $ENDCMP
 #
