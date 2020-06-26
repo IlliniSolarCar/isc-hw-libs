@@ -5,4 +5,10 @@ D Polarised capacitor
 K cap capacitor
 $ENDCMP
 #
+$CMP D_SOT-227
+D Dual Diode, SOT-227
+K diode
+F ~
+$ENDCMP
+#
 #End Doc Library
