@@ -145,6 +145,12 @@ D Inertial Measurement Unit, gyroscope, accelerometer, magnetometer, 24-pin 3x3m
 K imu, gyroscope, accelerometer, accelerometer, magnetometer
 $ENDCMP
 #
+$CMP Omron_G6DN
+D Omron SPST Relay, 5A, High Switching, Low Power Consumption
+K Single Pole Relay SPST
+F http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
+$ENDCMP
+#
 $CMP PCA9615
 D 2-ch dI2C bus buffer with hot-swap logic, chA 3.0V to 5.0V, chB 2.3V to 5.0V
 K differential, dI2C, I2C
