@@ -594,12 +594,6 @@ K Single Pole Relay SPDT
 F http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
 $ENDCMP
 #
-$CMP SANYOU_SRD_Form_D
-D Sanyo SRD relay, Single Pole Miniature Power Relay, Closing Contact
-K Single Pole Relay SPST
-F http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
-$ENDCMP
-#
 $CMP SILxx-1Axx-71x
 D Standex Meder SIL reed relay, SPST, Closing Contact
 K Single Pole Reed Relay SPST
