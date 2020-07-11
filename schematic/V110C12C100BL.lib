@@ -11,18 +11,30 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 S -600 350 550 -400 0 1 0 N
 X +IN 1 -700 250 100 R 50 50 1 1 I
+<<<<<<< HEAD
+=======
+X GND 10 350 450 100 D 50 50 1 1 O
+X GND 11 -350 -500 100 U 50 50 1 1 O
+X GND 12 0 -500 100 U 50 50 1 1 O
+X GND 13 350 -500 100 U 50 50 1 1 O
+>>>>>>> parent of 66fb504... deleted seperate library for V110B12C150/100BL. Moved the symbol to Converter DCDC
 X PC 2 -700 100 100 R 50 50 1 1 I
 X PR 3 -700 -100 100 R 50 50 1 1 I
 X -IN 4 -700 -300 100 R 50 50 1 1 I
 X -OUT 5 650 -100 100 L 50 50 1 1 O
 X SC 6 650 0 100 L 50 50 1 1 O
 X +OUT 7 650 100 100 L 50 50 1 1 I
+<<<<<<< HEAD
 X GND ~ -350 -500 100 U 50 50 1 1 O
 X GND ~ -350 450 100 D 50 50 1 1 O
 X GND ~ 0 -500 100 U 50 50 1 1 O
 X GND ~ 0 450 100 D 50 50 1 1 O
 X GND ~ 350 -500 100 U 50 50 1 1 O
 X GND ~ 350 450 100 D 50 50 1 1 O
+=======
+X GND 8 -350 450 100 D 50 50 1 1 O
+X GND 9 0 450 100 D 50 50 1 1 O
+>>>>>>> parent of 66fb504... deleted seperate library for V110B12C150/100BL. Moved the symbol to Converter DCDC
 ENDDRAW
 ENDDEF
 #
