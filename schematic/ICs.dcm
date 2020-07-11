@@ -12,6 +12,18 @@ K HCMOS SR
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT597.pdf
 $ENDCMP
 #
+$CMP AH1894
+D Programmable Hall-Effect Switch
+K programmable hall effect switch
+F https://www.diodes.com/assets/Datasheets/AH1894.pdf
+$ENDCMP
+#
+$CMP AIS2120SXTR
+D Accelerometer X, Y Axis ±120g 400Hz 8-SOIC
+K Accelerometer
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/ae/89/e4/62/23/de/40/2a/DM00226343.pdf/files/DM00226343.pdf/jcr:content/translations/en.DM00226343.pdf
+$ENDCMP
+#
 $CMP AL8860MP-13
 D LED Driver IC 1 Output DC DC Regulator Step-Down (Buck) Analog, PWM Dimming 1.5A 8-MSOP-EP
 K led driver buck 1.5a switching pwm analog
@@ -105,6 +117,12 @@ K isolated CAN transceiver
 F https://www.ti.com/lit/ds/symlink/iso1042.pdf
 $ENDCMP
 #
+$CMP LM2940x-10
+D Low-dropout 1A voltage regulator, Input 10V to 26V, Out 10V
+K Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lm2940-n.pdf
+$ENDCMP
+#
 $CMP LTC2952
 D Pushbutton powerpath controller with supervisor
 K powerpath pushbutton button supervisor
@@ -143,6 +161,30 @@ $ENDCMP
 $CMP MPU-9250
 D Inertial Measurement Unit, gyroscope, accelerometer, magnetometer, 24-pin 3x3mm QFN
 K imu, gyroscope, accelerometer, accelerometer, magnetometer
+$ENDCMP
+#
+$CMP NCP551
+D IC REG LINEAR 150MA 5TSOP
+K LDO 150mA SOT23-5
+F https://www.onsemi.com/pub/Collateral/NCP551-D.PDF
+$ENDCMP
+#
+$CMP NCP551SN18T1G
+D IC REG 1.8V LINEAR 150MA 5TSOP
+K LDO 150mA SOT23-5 1.8V 1V8
+F https://www.onsemi.com/pub/Collateral/NCP551-D.PDF
+$ENDCMP
+#
+$CMP NCP551SN33T1G
+D IC REG 3.3V LINEAR 150MA 5TSOP
+K LDO 150mA SOT23-5 3.3V 3V3
+F https://www.onsemi.com/pub/Collateral/NCP551-D.PDF
+$ENDCMP
+#
+$CMP NCP551SN50T1G
+D IC REG 5V LINEAR 150MA 5TSOP
+K LDO 150mA SOT23-5 5V
+F https://www.onsemi.com/pub/Collateral/NCP551-D.PDF
 $ENDCMP
 #
 $CMP PCA9615
