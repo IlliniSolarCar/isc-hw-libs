@@ -1,7 +1,7 @@
-(module IDC-Header_2x05_Pitch1.27mm_Straight (layer F.Cu) (tedit 5CAD1CC5)
+(module IDC-Header_2x05_Pitch1.27mm_Straight (layer F.Cu) (tedit 5E66EE37)
   (descr "10 pins through hole IDC header, isc")
   (tags "IDC header socket VASCH")
-  (fp_text reference U8 (at 1.6432 -7.6018) (layer F.SilkS)
+  (fp_text reference REF** (at 1.6432 -7.6018) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value 3220-10-0100-00 (at 2.54 9.525) (layer F.Fab)
@@ -40,7 +40,6 @@
   (fp_line (start -2.75 -0.825) (end -2.225 -0.825) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.225 -0.825) (end -2.225 0.95) (layer F.SilkS) (width 0.15))
   (fp_line (start -2.225 0.95) (end -2.75 0.95) (layer F.SilkS) (width 0.15))
-
   (pad 10 thru_hole oval (at 0.635 2.54) (size 1.005 1.005) (drill 0.7) (layers *.Cu *.Mask))
   (pad 9 thru_hole oval (at -0.635 2.54) (size 1.005 1.005) (drill 0.7) (layers *.Cu *.Mask))
   (pad 8 thru_hole oval (at 0.635 1.27) (size 1.005 1.005) (drill 0.7) (layers *.Cu *.Mask))
