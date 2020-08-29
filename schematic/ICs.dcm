@@ -180,7 +180,7 @@ K DCDC DC-DC converter
 F https://recom-power.com/pdf/Econoline/RSO.pdf
 $ENDCMP
 #
-$CMP Si8602-Isolator
+$CMP Si8602
 D Bidirectional DC/DC Isolator, 1-pin, 3.3v in
 K Bidirectional DC/DC Isolator
 F https://www.silabs.com/documents/public/data-sheets/Si860x.pdf
