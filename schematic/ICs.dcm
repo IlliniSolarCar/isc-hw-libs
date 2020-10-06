@@ -42,6 +42,12 @@ K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS40K2-1EJC-DS-v01_00-EN.pdf?fileId=5546d462518ffd85015254ee4e601f99
 $ENDCMP
 #
+$CMP CAT9554
+D 8-bit I2C and SMBus I/O Port
+K I/O 8 bit I2C expander GPIO
+F https://www.onsemi.com/pub/Collateral/CAT9554-D.PDF
+$ENDCMP
+#
 $CMP DSM7TAxx1xxT
 D Thin Sufrace Mount Single Digit 7-Segment LED Numeric Display
 K 7 Segment, LED, SMD
@@ -220,6 +226,12 @@ $CMP RSO-1205S
 D 5V out, 200mA, 9-18V in, 1W, Medical
 K DCDC DC-DC converter
 F https://recom-power.com/pdf/Econoline/RSO.pdf
+$ENDCMP
+#
+$CMP Si8602
+D Bidirectional DC/DC Isolator, 1-pin, 3.3v in
+K Bidirectional DC/DC Isolator
+F https://www.silabs.com/documents/public/data-sheets/Si860x.pdf
 $ENDCMP
 #
 $CMP WE-TVS_82400102
