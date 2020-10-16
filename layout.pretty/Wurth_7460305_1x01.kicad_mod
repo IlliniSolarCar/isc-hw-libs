@@ -1,4 +1,6 @@
-(module Wurth_7460305_1x01 (layer F.Cu) (tedit 5F7D54C0)
+(module Wurth_7460305_1x01 (layer F.Cu) (tedit 5F891CDA)
+  (descr "Wurth, M5 Terminal Lug, Press-Fit, https://www.we-online.de/katalog/datasheet/7460305.pdf")
+  (tags "wurth terminal M5")
   (fp_text reference REF** (at 3.81 -1.905) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
