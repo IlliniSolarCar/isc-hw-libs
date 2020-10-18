@@ -234,6 +234,12 @@ K Bidirectional DC/DC Isolator
 F https://www.silabs.com/documents/public/data-sheets/Si860x.pdf
 $ENDCMP
 #
+$CMP Si8271
+D 4A Isolated Gate Driver
+K ISOdriver gate driver isolated
+F https://www.silabs.com/documents/public/data-sheets/Si827x.pdf
+$ENDCMP
+#
 $CMP WE-TVS_82400102
 D ESD protection for high speed I/O channels and VDD, 6V, 6A pk
 K esd, tvs, diode
