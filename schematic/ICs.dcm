@@ -58,6 +58,12 @@ D Integrated load switch, CMOS Pair, 3-20V input, V_on_off 1.5-8V, 1.5A cont., 7
 K cmos, nmos, pmos, isc
 $ENDCMP
 #
+$CMP FXOS8700CQ
+D 3-Axis Accelerometer and Magnetometer, I2C/SPI interface, 2/4/8g range
+K accelerometer magnetometer qfn IMU
+F https://media.digikey.com/pdf/Data%20Sheets/NXP%20PDFs/FXOS8700CQ.pdf
+$ENDCMP
+#
 $CMP GTL2003
 D 8-bit bidirectional low voltage translator
 K translator
@@ -164,6 +170,12 @@ K R POT
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22059b.pdf
 $ENDCMP
 #
+$CMP MCP809
+D Microcontroller supervisory circuit with push-pull output
+K supervisory power brown out
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
+$ENDCMP
+#
 $CMP MPU-9250
 D Inertial Measurement Unit, gyroscope, accelerometer, magnetometer, 24-pin 3x3mm QFN
 K imu, gyroscope, accelerometer, accelerometer, magnetometer
@@ -202,6 +214,12 @@ $CMP PCA9745B
 D 16 output SPI Low Side LED Driver
 K LED Driver
 F https://www.nxp.com/docs/en/data-sheet/PCA9745B.pdf
+$ENDCMP
+#
+$CMP PCF2129T
+D Realtime Clock/Calender I2C/SPI with integrated quartz crystal
+K rtc realtime clock spi i2c
+F https://www.nxp.com/docs/en/data-sheet/PCF2129.pdf
 $ENDCMP
 #
 $CMP R-78AA3.3-1.0
