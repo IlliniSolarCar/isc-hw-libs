@@ -20,4 +20,10 @@ D DPDT, 125V, 3A
 K DPDT, switch, isc
 $ENDCMP
 #
+$CMP Omron_G6DN
+D Omron SPST Relay, 5A, High Switching, Low Power Consumption
+K Single Pole Relay SPST
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6dn.pdf
+$ENDCMP
+#
 #End Doc Library
