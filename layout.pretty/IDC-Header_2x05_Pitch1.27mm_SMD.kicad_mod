@@ -62,7 +62,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KICAD_SYMBOL_DIR}/packages3d/JTAG_3220-10-0100.igs
+  (model ${ISC_SYMBOL_DIR}/packages3d/JTAG_3220-10-0100.igs
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
