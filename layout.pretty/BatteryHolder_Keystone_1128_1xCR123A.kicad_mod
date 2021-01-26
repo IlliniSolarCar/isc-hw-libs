@@ -1,11 +1,7 @@
-<<<<<<< HEAD
 (module BatteryHolder_Keystone_1128_1xCR123A (layer F.Cu) (tedit 600FB94D)
   (descr "1xCR123A Battery Holder, Keystone, Plastic Case, http://www.keyelco.com/product-pdf.cfm?p=1128")
   (tags "CR123A battery holder Keystone")
   (attr smd)
-=======
-(module BatteryHolder_Keystone_1128_1xCR123A (layer F.Cu) (tedit 600FB7FE)
->>>>>>> 04181b201b2f10ff932e022ac5d373a9de0cfc8b
   (fp_text reference REF** (at 0.127 -10.414) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
