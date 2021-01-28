@@ -75,6 +75,12 @@ K SMPS pfc controller
 F https://www.infineon.com/dgdl/Infineon-ICE2PCS05-DS-v01_02-en.pdf?fileId=db3a30431c69a49d011cdfb46a834373
 $ENDCMP
 #
+$CMP ICM-20948
+D InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI
+K mems magnetometer
+F https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf
+$ENDCMP
+#
 $CMP INA199
 D Current Shunt Monitor −0.3 V to +26 V Common-Mode Range, Bidirectional, Zero-Drift, Low- or High-Side
 K current sense shunt monitor
