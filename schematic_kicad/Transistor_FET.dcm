@@ -2066,6 +2066,7 @@ $ENDCMP
 #
 $CMP IRFR010
 D 8.2A Id, 50V Vds, 160mOhm, Single N-Channel MOSFET
+K N-Channel MOSFET
 F http://www.vishay.com/docs/91420/sihfr010.pdf
 $ENDCMP
 #
