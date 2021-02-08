@@ -5,6 +5,11 @@ D Ideal diode, 2.6A, 2.6V-5.5V
 K diode, controller,
 $ENDCMP
 #
+$CMP LTC4412
+D Low Lowss Power Path  2.5V-28V
+K diode, controller,
+$ENDCMP
+#
 $CMP PESD1CAN
 D Dual Line CAN Bus Protector, 24Vrwm
 K can esd protection suppression transient
@@ -17,12 +22,6 @@ K transistor NMOS N-MOS N-MOSFET 6 pin
 F ~
 $ENDCMP
 #
-$CMP Q_PMOS_DDGSDD
-D P-Channel MOSFET
-K transistor PMOS P-MOS P-MOSFET
-F ~
-$ENDCMP
-#
 $CMP Q_NMOS_DUAL_SGD
 D N-MOSFET transistor, source2/gate2/drain1/source1/gate1/drain2
 K transistor NMOS N-MOS N-MOSFET DUAL
@@ -32,6 +31,18 @@ $ENDCMP
 $CMP Q_NMOS_DUAL_SGDD
 D N-MOSFET transistor, source2/gate2/source1/gate1/drain1/drain2
 K transistor NMOS N-MOS N-MOSFET DUAL
+F ~
+$ENDCMP
+#
+$CMP Q_PMOS_DDGSDD
+D P-Channel MOSFET
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
+$CMP Q_PMOS_DUAL_GSGDSD
+D DUAL P-Channel MOSFET
+K transistor PMOS P-MOS P-MOSFET DUAL
 F ~
 $ENDCMP
 #

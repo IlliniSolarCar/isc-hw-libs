@@ -12,6 +12,18 @@ K HCMOS SR
 F https://assets.nexperia.com/documents/data-sheet/74HC_HCT597.pdf
 $ENDCMP
 #
+$CMP AH1894
+D Programmable Hall-Effect Switch
+K programmable hall effect switch
+F https://www.diodes.com/assets/Datasheets/AH1894.pdf
+$ENDCMP
+#
+$CMP AIS2120SXTR
+D Accelerometer X, Y Axis ±120g 400Hz 8-SOIC
+K Accelerometer
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/ae/89/e4/62/23/de/40/2a/DM00226343.pdf/files/DM00226343.pdf/jcr:content/translations/en.DM00226343.pdf
+$ENDCMP
+#
 $CMP AL8860MP-13
 D LED Driver IC 1 Output DC DC Regulator Step-Down (Buck) Analog, PWM Dimming 1.5A 8-MSOP-EP
 K led driver buck 1.5a switching pwm analog
@@ -30,6 +42,12 @@ K infineon power switch
 F http://www.infineon.com/dgdl/Infineon-BTS40K2-1EJC-DS-v01_00-EN.pdf?fileId=5546d462518ffd85015254ee4e601f99
 $ENDCMP
 #
+$CMP CAT9554
+D 8-bit I2C and SMBus I/O Port
+K I/O 8 bit I2C expander GPIO
+F https://www.onsemi.com/pub/Collateral/CAT9554-D.PDF
+$ENDCMP
+#
 $CMP DSM7TAxx1xxT
 D Thin Sufrace Mount Single Digit 7-Segment LED Numeric Display
 K 7 Segment, LED, SMD
@@ -38,6 +56,12 @@ $ENDCMP
 $CMP FDC6324L
 D Integrated load switch, CMOS Pair, 3-20V input, V_on_off 1.5-8V, 1.5A cont., 700 mW, SuperSOT-6
 K cmos, nmos, pmos, isc
+$ENDCMP
+#
+$CMP FXOS8700CQ
+D 3-Axis Accelerometer and Magnetometer, I2C/SPI interface, 2/4/8g range
+K accelerometer magnetometer qfn IMU
+F https://media.digikey.com/pdf/Data%20Sheets/NXP%20PDFs/FXOS8700CQ.pdf
 $ENDCMP
 #
 $CMP GTL2003
@@ -105,6 +129,12 @@ K isolated CAN transceiver
 F https://www.ti.com/lit/ds/symlink/iso1042.pdf
 $ENDCMP
 #
+$CMP LM2940x-10
+D Low-dropout 1A voltage regulator, Input 10V to 26V, Out 10V
+K Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lm2940-n.pdf
+$ENDCMP
+#
 $CMP LTC2952
 D Pushbutton powerpath controller with supervisor
 K powerpath pushbutton button supervisor
@@ -138,6 +168,12 @@ $CMP MCP4261-103
 D Dual Digital Potentiometer, SPI interface, 256 taps, 10 kohm
 K R POT
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22059b.pdf
+$ENDCMP
+#
+$CMP MCP809
+D Microcontroller supervisory circuit with push-pull output
+K supervisory power brown out
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11194c.pdf
 $ENDCMP
 #
 $CMP MPU-9250
@@ -180,6 +216,12 @@ K LED Driver
 F https://www.nxp.com/docs/en/data-sheet/PCA9745B.pdf
 $ENDCMP
 #
+$CMP PCF2129T
+D Realtime Clock/Calender I2C/SPI with integrated quartz crystal
+K rtc realtime clock spi i2c
+F https://www.nxp.com/docs/en/data-sheet/PCF2129.pdf
+$ENDCMP
+#
 $CMP R-78AA3.3-1.0
 D 1.0 Amp SMD SIngle Output Switching Regulator
 K recom smd converter regulator
@@ -202,6 +244,18 @@ $CMP RSO-1205S
 D 5V out, 200mA, 9-18V in, 1W, Medical
 K DCDC DC-DC converter
 F https://recom-power.com/pdf/Econoline/RSO.pdf
+$ENDCMP
+#
+$CMP Si8602
+D Bidirectional DC/DC Isolator, 1-pin, 3.3v in
+K Bidirectional DC/DC Isolator
+F https://www.silabs.com/documents/public/data-sheets/Si860x.pdf
+$ENDCMP
+#
+$CMP Si8271
+D 4A Isolated Gate Driver
+K ISOdriver gate driver isolated
+F https://www.silabs.com/documents/public/data-sheets/Si827x.pdf
 $ENDCMP
 #
 $CMP WE-TVS_82400102
