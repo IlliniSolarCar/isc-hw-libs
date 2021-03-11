@@ -246,16 +246,22 @@ K DCDC DC-DC converter
 F https://recom-power.com/pdf/Econoline/RSO.pdf
 $ENDCMP
 #
-$CMP Si8602
-D Bidirectional DC/DC Isolator, 1-pin, 3.3v in
-K Bidirectional DC/DC Isolator
-F https://www.silabs.com/documents/public/data-sheets/Si860x.pdf
-$ENDCMP
-#
 $CMP Si8271
 D 4A Isolated Gate Driver
 K ISOdriver gate driver isolated
 F https://www.silabs.com/documents/public/data-sheets/Si827x.pdf
+$ENDCMP
+#
+$CMP Si8274
+D Iso Gate Driver with Deadtime 
+K Isolated, Gate, Driver, SOIC
+F https://www.silabs.com/documents/public/data-sheets/Si827x.pdf
+$ENDCMP
+#
+$CMP Si8602
+D Bidirectional DC/DC Isolator, 1-pin, 3.3v in
+K Bidirectional DC/DC Isolator
+F https://www.silabs.com/documents/public/data-sheets/Si860x.pdf
 $ENDCMP
 #
 $CMP WE-TVS_82400102
