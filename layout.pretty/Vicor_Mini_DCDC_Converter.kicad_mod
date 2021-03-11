@@ -1,4 +1,4 @@
-(module Vicor_Mini_DCDC_Converter (layer F.Cu) (tedit 60496ABF)
+(module Vicor_Mini_DCDC_Converter (layer F.Cu) (tedit 60496C21)
   (descr "Vicor Mini DCDC Converter")
   (tags "Vicor Mini DCDC Converter")
   (fp_text reference U** (at 0 -30.48) (layer F.SilkS)
