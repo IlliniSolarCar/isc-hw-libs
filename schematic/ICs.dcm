@@ -246,16 +246,27 @@ K DCDC DC-DC converter
 F https://recom-power.com/pdf/Econoline/RSO.pdf
 $ENDCMP
 #
-$CMP Si8602
-D Bidirectional DC/DC Isolator, 1-pin, 3.3v in
-K Bidirectional DC/DC Isolator
-F https://www.silabs.com/documents/public/data-sheets/Si860x.pdf
+$CMP S110B12C150BL
+D Vicor Mini DCDC Converter, 110V to 12V/12.5A enhanced-efficiency
+K Vicor DCDC Converter 110V 12V
+F https://www.mouser.com/datasheet/2/685/ds_110vin_mini_family-1928115.pdf
 $ENDCMP
 #
 $CMP Si8271
 D 4A Isolated Gate Driver
 K ISOdriver gate driver isolated
 F https://www.silabs.com/documents/public/data-sheets/Si827x.pdf
+$ENDCMP
+#
+$CMP Si8602
+D Bidirectional DC/DC Isolator, 1-pin, 3.3v in
+K Bidirectional DC/DC Isolator
+F https://www.silabs.com/documents/public/data-sheets/Si860x.pdf
+$ENDCMP
+#
+$CMP V110B12C150BL
+D Vicor Mini DCDC Converter, 110V to 12V/12.5A standard efficiency
+K Vicor DCDC Converter 110V 12V
 $ENDCMP
 #
 $CMP WE-TVS_82400102
