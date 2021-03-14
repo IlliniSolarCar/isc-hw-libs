@@ -129,6 +129,12 @@ K isolated CAN transceiver
 F https://www.ti.com/lit/ds/symlink/iso1042.pdf
 $ENDCMP
 #
+$CMP LM2766
+D LM2766 Switched Capacitor Voltage Converter
+K voltage doubler
+F https://www.ti.com/lit/ds/symlink/lm2766.pdf?ts=1614555733589&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
 $CMP LM2940x-10
 D Low-dropout 1A voltage regulator, Input 10V to 26V, Out 10V
 K Voltage Regulator
@@ -253,7 +259,7 @@ F https://www.silabs.com/documents/public/data-sheets/Si827x.pdf
 $ENDCMP
 #
 $CMP Si8274
-D Iso Gate Driver with Deadtime 
+D Iso Gate Driver with Deadtime
 K Isolated, Gate, Driver, SOIC
 F https://www.silabs.com/documents/public/data-sheets/Si827x.pdf
 $ENDCMP
