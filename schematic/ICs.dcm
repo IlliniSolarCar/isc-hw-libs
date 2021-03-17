@@ -117,6 +117,12 @@ K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
 #
+$CMP ISL21080CIH315Z-TK
+D 1.5V 1.5µA Voltage Reference, SOT-23
+K Voltage Reference SOT-23 1.5V
+F https://www.renesas.com/us/en/document/dst/isl21080-datasheet
+$ENDCMP
+#
 $CMP ISO1042DW
 D Isolated CAN Transceiver, 1Mbps
 K can transceiver isolated protected
