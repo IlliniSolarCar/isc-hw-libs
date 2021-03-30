@@ -78,7 +78,7 @@ $ENDCMP
 $CMP ICM-20948
 D InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI
 K mems magnetometer
-F https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf
+F https://www.digikey.com/htmldatasheets/production/2263163/0/0/1/icm-20948.html
 $ENDCMP
 #
 $CMP INA199
