@@ -228,6 +228,10 @@ K recom smd converter regulator
 F https://www.recom-power.com/pdf/Innoline/R-78AAxx-1.0SMD.pdf
 $ENDCMP
 #
+$CMP RP180H-11012SRW_P-HC
+F https://d311uvhi8lkjbj.cloudfront.net/media/Datasheet/pdf/.fR35UjMX/.t238605eebcf7356c90a5/Datasheet-223/RP180H-RW.pdf
+$ENDCMP
+#
 $CMP RS-1205S
 D 9V out, 200mA, 9-18V in, 1W
 K DCDC DC-DC converter
