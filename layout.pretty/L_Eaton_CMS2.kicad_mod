@@ -1,4 +1,6 @@
-(module L_Eaton_CMS2 (layer F.Cu) (tedit 60C0FF2E)
+(module L_Eaton_CMS2 (layer F.Cu) (tedit 60C10055)
+  (descr https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-cms-common-mode-inductors-surface-mount-data-sheet.pdf)
+  (tags "CMS2, Eaton, Inductor")
   (fp_text reference REF** (at 0.06 -7.68) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
