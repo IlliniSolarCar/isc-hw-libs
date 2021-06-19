@@ -36,6 +36,12 @@ K led driver buck 1a switching pwm analog
 F https://www.diodes.com/assets/Datasheets/AL8860.pdf
 $ENDCMP
 #
+$CMP AP8801
+D LED Driver IC 1 Output DC DC Regulator Step-Down (Buck) Analog, PWM Dimming 0.5A 8-MSOP-EP
+K led driver buck 0.5a switching pwm analog
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/AP8801.pdf
+$ENDCMP
+#
 $CMP BTS5010-1EKB
 D Smart High-Side Power Switch, PROFET, Single, 200mOhm, 1.5A, 36V, DSO-8
 K infineon power switch
