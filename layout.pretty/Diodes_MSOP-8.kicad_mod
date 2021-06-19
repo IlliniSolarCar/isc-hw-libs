@@ -1,4 +1,6 @@
-(module Diodes_MSOP-8 (layer F.Cu) (tedit 60CE6C2D)
+(module Diodes_MSOP-8 (layer F.Cu) (tedit 60CE6CDC)
+  (descr "8-Lead Plastic MSOP-8, (see https://www.diodes.com/assets/Datasheets/products_inactive_data/AP8801.pdf)")
+  (tags MSOP-8)
   (fp_text reference REF** (at 0.35 2.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
