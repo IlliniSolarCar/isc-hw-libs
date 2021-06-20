@@ -135,6 +135,12 @@ K isolated CAN transceiver
 F https://www.ti.com/lit/ds/symlink/iso1042.pdf
 $ENDCMP
 #
+$CMP LED2001PHR
+D 4A monolithic step-down current source with synchronous rectification
+K LED Driver, 4A, current source
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/37/ed/f7/77/d7/ed/4e/84/DM00079085.pdf/files/DM00079085.pdf/jcr:content/translations/en.DM00079085.pdf
+$ENDCMP
+#
 $CMP LM2940x-10
 D Low-dropout 1A voltage regulator, Input 10V to 26V, Out 10V
 K Voltage Regulator
