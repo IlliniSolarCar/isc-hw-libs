@@ -36,6 +36,10 @@ K led driver buck 1a switching pwm analog
 F https://www.diodes.com/assets/Datasheets/AL8860.pdf
 $ENDCMP
 #
+$CMP AP2202-ADJ
+F https://www.diodes.com/assets/Datasheets/AP2202.pdf
+$ENDCMP
+#
 $CMP BTS5010-1EKB
 D Smart High-Side Power Switch, PROFET, Single, 200mOhm, 1.5A, 36V, DSO-8
 K infineon power switch
