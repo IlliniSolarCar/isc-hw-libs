@@ -40,6 +40,12 @@ $CMP AP2202-ADJ
 F https://www.diodes.com/assets/Datasheets/AP2202.pdf
 $ENDCMP
 #
+$CMP AP8801
+D LED Driver IC 1 Output DC DC Regulator Step-Down (Buck) Analog, PWM Dimming 0.5A 8-MSOP-EP
+K LED driver buck 0.5a switching pwm analog
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/AP8801.pdf
+$ENDCMP
+#
 $CMP BTS5010-1EKB
 D Smart High-Side Power Switch, PROFET, Single, 200mOhm, 1.5A, 36V, DSO-8
 K infineon power switch
@@ -131,6 +137,12 @@ $CMP ISO1042DWV
 D Isolated CAN Transceiver
 K isolated CAN transceiver
 F https://www.ti.com/lit/ds/symlink/iso1042.pdf
+$ENDCMP
+#
+$CMP LED2001PHR
+D 4A monolithic step-down current source with synchronous rectification
+K LED Driver, 4A, current source
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/37/ed/f7/77/d7/ed/4e/84/DM00079085.pdf/files/DM00079085.pdf/jcr:content/translations/en.DM00079085.pdf
 $ENDCMP
 #
 $CMP LM2940x-10

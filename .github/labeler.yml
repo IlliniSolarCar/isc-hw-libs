@@ -19,6 +19,6 @@ kicad libraries:
 
 # Add git label to anything that changes a repo config
 git:
-  - .github/*
+  - .github/**/*
   - '**/.gitignore'
   - ./*.md
