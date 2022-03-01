@@ -36,6 +36,10 @@ K led driver buck 1a switching pwm analog
 F https://www.diodes.com/assets/Datasheets/AL8860.pdf
 $ENDCMP
 #
+$CMP AP2202-ADJ
+F https://www.diodes.com/assets/Datasheets/AP2202.pdf
+$ENDCMP
+#
 $CMP AP8801
 D LED Driver IC 1 Output DC DC Regulator Step-Down (Buck) Analog, PWM Dimming 0.5A 8-MSOP-EP
 K LED driver buck 0.5a switching pwm analog
