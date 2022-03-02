@@ -240,6 +240,11 @@ K recom smd converter regulator
 F https://www.recom-power.com/pdf/Innoline/R-78AAxx-1.0SMD.pdf
 $ENDCMP
 #
+$CMP REM6-1212S
+D 12V to 12V DC-DC 500mA Converter with 5kV isolation REM6
+K https://recom-power.com/pdf/Medline_DC-DC/REM6.pdf
+$ENDCMP
+#
 $CMP RP180H-11012SRW_P-HC
 D 12V out, 15000mA, 42-160V in, 180W
 K DCDC DC-DC converter
