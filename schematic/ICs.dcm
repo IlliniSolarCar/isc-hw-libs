@@ -243,6 +243,7 @@ $ENDCMP
 $CMP REM6-1212S
 D 12V to 12V DC-DC 500mA Converter with 5kV isolation REM6
 K https://recom-power.com/pdf/Medline_DC-DC/REM6.pdf
+F https://recom-power.com/pdf/Medline_DC-DC/REM6.pdf
 $ENDCMP
 #
 $CMP RP180H-11012SRW_P-HC
