@@ -8,6 +8,7 @@ $ENDCMP
 $CMP LTC4412
 D Low Lowss Power Path  2.5V-28V
 K diode, controller,
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4411fa.pdf
 $ENDCMP
 #
 $CMP PESD1CAN
