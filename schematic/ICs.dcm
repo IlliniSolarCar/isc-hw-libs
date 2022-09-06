@@ -133,6 +133,12 @@ K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
 #
+$CMP ISL21080CIH315Z-TK
+D 1.5V 1.5µA Voltage Reference, SOT-23
+K Voltage Reference SOT-23 1.5V
+F https://www.renesas.com/us/en/document/dst/isl21080-datasheet
+$ENDCMP
+#
 $CMP ISO1042DW
 D Isolated CAN Transceiver, 1Mbps
 K can transceiver isolated protected
@@ -250,6 +256,11 @@ K recom smd converter regulator
 F https://www.recom-power.com/pdf/Innoline/R-78AAxx-1.0SMD.pdf
 $ENDCMP
 #
+$CMP REF20xx
+D Low-Drift, Low-Power, Dual-Output, VREF and VREF / 2 Voltage References
+K reference voltage dual 
+F https://www.ti.com/lit/ds/symlink/ref2030.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1617732754214
+$ENDCMP
 $CMP REM6-1212S
 D 12V to 12V DC-DC 500mA Converter with 5kV isolation REM6
 K https://recom-power.com/pdf/Medline_DC-DC/REM6.pdf
