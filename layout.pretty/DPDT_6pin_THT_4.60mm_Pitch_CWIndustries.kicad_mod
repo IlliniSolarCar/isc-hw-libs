@@ -1,4 +1,4 @@
-(module DPDT_6pin_THT_4.60mm_Pitch_CWIndustries (layer F.Cu) (tedit 5CAD19C3)
+(module DPDT_6pin_THT_4.60mm_Pitch_CWIndustries (layer F.Cu) (tedit 5E15398E)
   (fp_text reference S1 (at -6.504 6.223 -90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -19,7 +19,7 @@
   (pad 3 thru_hole circle (at -3.455 4.6) (size 3.15 3.15) (drill 1.65) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -3.455 0) (size 3.15 3.15) (drill 1.65) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -3.455 -4.6) (size 3.15 3.15) (drill 1.65) (layers *.Cu *.Mask))
-  (model ${KICAD_SYMBOL_DIR}/packages3d/SW_DIP_DPST_gf1260312.step
+  (model ${ISC_SYMBOL_DIR}/packages3d/SW_DIP_DPST_gf1260312.step
     (offset (xyz 0 -8.199999999999999 -5.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

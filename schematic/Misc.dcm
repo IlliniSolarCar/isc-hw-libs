@@ -20,4 +20,16 @@ D DPDT, 125V, 3A
 K DPDT, switch, isc
 $ENDCMP
 #
+$CMP L_Coupled_2
+D Coupled inductor
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
+$CMP Omron_G6DN
+D Omron SPST Relay, 5A, High Switching, Low Power Consumption
+K Single Pole Relay SPST
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6dn.pdf
+$ENDCMP
+#
 #End Doc Library
