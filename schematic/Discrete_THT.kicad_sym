@@ -66,20 +66,20 @@
       )
     )
   )
-  (symbol "DCM3623xA5N26B4y7z" (in_bom yes) (on_board yes)
+  (symbol "DCM3623TA5N26B4T70" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 1.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "DCM3623xA5N26B4y7z" (id 1) (at 0 3.81 0)
+    (property "Value" "DCM3623TA5N26B4T70" (id 1) (at 0 3.81 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 0 0)
+    (property "Footprint" "layout:CONV_DCM3623TA5N26B4T70" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.vicorpower.com/documents/datasheets/DCM3623xA5N26B4y7z_ds.pdf" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "DCM3623xA5N26B4y7z_0_1"
+    (symbol "DCM3623TA5N26B4T70_0_1"
       (rectangle (start -7.62 0) (end 7.62 -26.67)
         (stroke (width 0.33) (type default) (color 0 0 0 0))
         (fill (type background))
@@ -173,7 +173,7 @@
         (fill (type none))
       )
     )
-    (symbol "DCM3623xA5N26B4y7z_1_1"
+    (symbol "DCM3623TA5N26B4T70_1_1"
       (pin input line (at -10.16 -12.7 0) (length 2.54)
         (name "+IN" (effects (font (size 1.27 1.27))))
         (number "A1" (effects (font (size 1.27 1.27))))
