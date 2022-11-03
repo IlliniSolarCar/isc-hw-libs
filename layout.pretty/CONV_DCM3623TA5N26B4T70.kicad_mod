@@ -35,4 +35,9 @@
   (pad "D1" thru_hole circle (at -14 4.13) (size 2.02 2.02) (drill 1.52) (layers *.Cu *.Mask) (tstamp 74455946-164d-4fa9-8a2f-8ea995db6b29))
   (pad "D2" thru_hole circle (at 23.19 8.25) (size 2.79 2.79) (drill 2.03) (layers *.Cu *.Mask) (tstamp 7c5e8f9d-0f6a-4ac0-8b5f-de3d2222bab5))
   (pad "E1" thru_hole circle (at -14 8) (size 2.53 2.53) (drill 2.03) (layers *.Cu *.Mask) (tstamp 45cef811-c2bb-4885-a6bd-16a426386582))
+  (model "${ISC_SYMBOL_DIR}/packages3d/DCM4623TD2N31C8M00.step"
+    (offset (xyz 5 0 3))
+    (scale (xyz 0.8 1 1))
+    (rotate (xyz -90 0 180))
+  )
 )
