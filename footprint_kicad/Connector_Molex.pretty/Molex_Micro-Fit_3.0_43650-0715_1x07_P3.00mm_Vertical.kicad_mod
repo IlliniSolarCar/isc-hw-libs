@@ -53,7 +53,7 @@
   (pad "6" thru_hole oval (at 15 0) (size 1.5 2.02) (drill 1.02) (layers *.Cu *.Mask) (tstamp b12588ba-9bce-4923-8a58-37e338c0698b))
   (pad "7" thru_hole oval (at 18 0) (size 1.5 2.02) (drill 1.02) (layers *.Cu *.Mask) (tstamp 758e4d2e-484e-4a07-9bb4-9dfc3661e2e5))
   (model "${ISC_SYMBOL_DIR}/packages3d/MolexConn/436500715.stp"
-    (offset (xyz 9 2 9.8))
+    (offset (xyz 9 1.95 9.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 -180))
   )
