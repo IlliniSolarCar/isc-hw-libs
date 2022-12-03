@@ -36,6 +36,16 @@ K led driver buck 1a switching pwm analog
 F https://www.diodes.com/assets/Datasheets/AL8860.pdf
 $ENDCMP
 #
+$CMP AP2202-ADJ
+F https://www.diodes.com/assets/Datasheets/AP2202.pdf
+$ENDCMP
+#
+$CMP AP8801
+D LED Driver IC 1 Output DC DC Regulator Step-Down (Buck) Analog, PWM Dimming 0.5A 8-MSOP-EP
+K LED driver buck 0.5a switching pwm analog
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/AP8801.pdf
+$ENDCMP
+#
 $CMP BTS5010-1EKB
 D Smart High-Side Power Switch, PROFET, Single, 200mOhm, 1.5A, 36V, DSO-8
 K infineon power switch
@@ -87,6 +97,12 @@ K SMPS pfc controller
 F https://www.infineon.com/dgdl/Infineon-ICE2PCS05-DS-v01_02-en.pdf?fileId=db3a30431c69a49d011cdfb46a834373
 $ENDCMP
 #
+$CMP ICM-20948
+D InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI
+K mems magnetometer
+F https://www.digikey.com/htmldatasheets/production/2263163/0/0/1/icm-20948.html
+$ENDCMP
+#
 $CMP INA199
 D Current Shunt Monitor −0.3 V to +26 V Common-Mode Range, Bidirectional, Zero-Drift, Low- or High-Side
 K current sense shunt monitor
@@ -117,6 +133,12 @@ K transistor NMOS N-MOS N-MOSFET
 F ~
 $ENDCMP
 #
+$CMP ISL21080CIH315Z-TK
+D 1.5V 1.5µA Voltage Reference, SOT-23
+K Voltage Reference SOT-23 1.5V
+F https://www.renesas.com/us/en/document/dst/isl21080-datasheet
+$ENDCMP
+#
 $CMP ISO1042DW
 D Isolated CAN Transceiver, 1Mbps
 K can transceiver isolated protected
@@ -127,6 +149,12 @@ $CMP ISO1042DWV
 D Isolated CAN Transceiver
 K isolated CAN transceiver
 F https://www.ti.com/lit/ds/symlink/iso1042.pdf
+$ENDCMP
+#
+$CMP LED2001PHR
+D 4A monolithic step-down current source with synchronous rectification
+K LED Driver, 4A, current source
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/37/ed/f7/77/d7/ed/4e/84/DM00079085.pdf/files/DM00079085.pdf/jcr:content/translations/en.DM00079085.pdf
 $ENDCMP
 #
 $CMP LM2940x-10
@@ -226,6 +254,17 @@ $CMP R-78AA3.3-1.0
 D 1.0 Amp SMD SIngle Output Switching Regulator
 K recom smd converter regulator
 F https://www.recom-power.com/pdf/Innoline/R-78AAxx-1.0SMD.pdf
+$ENDCMP
+#
+$CMP REF20xx
+D Low-Drift, Low-Power, Dual-Output, VREF and VREF / 2 Voltage References
+K reference voltage dual 
+F https://www.ti.com/lit/ds/symlink/ref2030.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1617732754214
+$ENDCMP
+$CMP REM6-1212S
+D 12V to 12V DC-DC 500mA Converter with 5kV isolation REM6
+K https://recom-power.com/pdf/Medline_DC-DC/REM6.pdf
+F https://recom-power.com/pdf/Medline_DC-DC/REM6.pdf
 $ENDCMP
 #
 $CMP RP180H-11012SRW_P-HC
