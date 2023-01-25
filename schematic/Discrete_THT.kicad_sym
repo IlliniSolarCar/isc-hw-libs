@@ -289,7 +289,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-
+)
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
   (symbol "R-78B12-2.0" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "PS" (id 0) (at -10.1639 6.3579 0)
@@ -352,5 +352,4 @@
       )
     )
   )
-)
 )
