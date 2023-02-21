@@ -52,4 +52,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "${ISC_SYMBOL_DIR}/packages3d/MolexConn/436500215.stp"
+    (offset (xyz 1.5 2 9.9))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 180))
+  )
 )
