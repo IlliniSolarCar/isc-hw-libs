@@ -55,4 +55,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "${ISC_SYMBOL_DIR}/packages3d/74650194R--3DModel-STEP-56544.STEP"
+    (offset (xyz 0 0 0.02))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
