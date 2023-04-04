@@ -50,12 +50,7 @@
   (pad 3 thru_hole oval (at -0.635 -1.27) (size 1.005 1.005) (drill 0.7) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 0.635 -2.54) (size 1.005 1.005) (drill 0.7) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -0.635 -2.54) (size 1.005 1.005) (drill 0.7) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connectors_IDC.3dshapes/IDC-Header_2x05_Pitch2.54mm_Straight.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model ${ISC_SYMBOL_DIR}/packages3d/JTAG_3220-10-0100.igs
+  (model ${ISC_SYMBOL_DIR}/packages3d/3220-10-0100-1.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
