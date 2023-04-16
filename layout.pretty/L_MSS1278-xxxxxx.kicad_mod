@@ -1,4 +1,4 @@
-(footprint "Inductor_MSS1278-xxxxxx" (version 20211014) (generator pcbnew)
+(footprint "L_MSS1278-xxxxxx" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (descr "MSS1278-xxxxxx Inductor")
