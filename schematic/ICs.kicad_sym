@@ -3912,7 +3912,7 @@
       )
     )
     (symbol "NCP566_1_1"
-      (pin input line (at -10.16 0 0) (length 5.08)
+      (pin power_in line (at -10.16 0 0) (length 5.08)
         (name "Vin" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -3920,7 +3920,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at 10.16 0 180) (length 5.08)
+      (pin power_out line (at 10.16 0 180) (length 5.08)
         (name "Vout" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
       )
