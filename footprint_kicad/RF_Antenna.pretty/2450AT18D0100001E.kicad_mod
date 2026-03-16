@@ -1,0 +1,245 @@
+(footprint "2450AT18D0100001E"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Johanson 2450AT18D0100001E")
+	(tags "Antenna, bluetooth")
+	(property "Reference" "ANT**"
+		(at 5 0 0)
+		(layer "F.SilkS")
+		(uuid "d20089a6-a12f-4d72-9cbe-1acea464996e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "2450AT18D0100001E"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d72174a9-1944-4547-b587-376ddd9d4bfa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.johansontechnology.com/datasheets/2450AT18D0100/2450AT18D0100.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01212b22-fab2-45bb-98e7-0c4405343127")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1875cb09-f44c-4425-aa8a-eb060fa810a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.6 0.65)
+		(end -2.6 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "239d5ca6-d275-4500-8772-453626993997")
+	)
+	(fp_line
+		(start -2.5 0.65)
+		(end -2.5 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ff8d6b2-87aa-4e10-b869-3ea5c4e5651c")
+	)
+	(fp_line
+		(start -0.6 -0.8)
+		(end 0.6 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5b9d35d-4651-41ba-b539-1e2f0fa202e8")
+	)
+	(fp_line
+		(start -0.6 0.8)
+		(end 0.6 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "481c9fab-c04c-4e17-b834-ad4400f4577c")
+	)
+	(fp_arc
+		(start -2.6 0.65)
+		(mid -2.55 0.6)
+		(end -2.5 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ced39b5-7c00-46a4-a13d-78d851a3f434")
+	)
+	(fp_arc
+		(start -2.5 0.65)
+		(mid -2.55 0.7)
+		(end -2.6 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23375178-9ab6-49d9-8b96-40c17f213392")
+	)
+	(fp_line
+		(start -3 -1.95)
+		(end 3 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5feb58c9-1679-4355-b27a-18127fb53a79")
+	)
+	(fp_line
+		(start -3 1.95)
+		(end -3 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c85e6843-2cdb-483e-b08b-7450a7459b9e")
+	)
+	(fp_line
+		(start 3 -1.95)
+		(end 3 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e6078dc2-6a84-47ef-8d9f-ccbbd9c2797b")
+	)
+	(fp_line
+		(start 3 1.95)
+		(end -3 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b75f3ec7-0c44-4cbc-a47a-3f0d8d21b392")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b99d7b20-93e2-409f-b105-a1fc8ff45ba5")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "73556de6-8018-4fad-9eda-497fe41a8285")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa1858a5-3843-4d60-b880-bcc5b8560e46")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b89d18b-ef5f-4c37-8b99-ac5447358be1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3 0)
+		(layer "F.Fab")
+		(uuid "77bcb219-2729-406b-bd22-4605941cd13a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 0.65 90)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a826d752-c228-4a58-8a80-eec2ef9554b1")
+	)
+	(pad "2" smd rect
+		(at 1.5 0.65 90)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1b36cf33-8ae0-49cb-949c-3aa7e490b0ef")
+	)
+	(pad "3" smd rect
+		(at 1.5 -0.65 90)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d9d421be-1a4b-4c1c-afc7-d1ec100ae6cd")
+	)
+	(pad "4" smd rect
+		(at -1.5 -0.65 90)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e8026cb4-c5d0-4561-b680-4312324cd3dd")
+	)
+	(embedded_fonts no)
+	(model "${ISC_SYMBOL_DIR}/packages3d/2450AT18D0100001E.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
