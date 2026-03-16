@@ -493,15 +493,4 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${ISC_SYMBOL_DIR}/packages3d/EFR32BG22E224F512IM32-C.stp"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )
