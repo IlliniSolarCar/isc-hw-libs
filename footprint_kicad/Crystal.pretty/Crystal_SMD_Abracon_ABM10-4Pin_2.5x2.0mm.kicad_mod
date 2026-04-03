@@ -218,17 +218,6 @@
 		(uuid "d440c2d4-a167-48a4-b99c-b8a3534bef4b")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "${ISC_SYMBOL_DIR}/packages3d/ABM10-165-38.400MHZ-T3.stp"
 		(offset
 			(xyz 0 0 0)
