@@ -222,7 +222,7 @@
 		(uuid "5eff6cb6-6a62-408b-8756-d6ae60abc4b5")
 	)
 	(embedded_fonts no)
-	(model "${ISC_3DMODEL_DIR}/MS583730BA01-50.step"
+	(model "${ISC_SYMBOL_DIR}/packages3d/MS583730BA01-50.step"
 		(offset
 			(xyz 0 0 0)
 		)

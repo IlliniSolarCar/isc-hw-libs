@@ -82,12 +82,10 @@
 		(remove_unused_layers no)
 		(uuid "d96e9ff9-e5f9-4219-9b19-9dedcfb78971")
 	)
-	(pad "2" thru_hole circle
-		(at -5.947017 0.009151 90)
+	(pad "2" smd circle
+		(at -5.837475 -0.581187 90)
 		(size 1.8 1.8)
-		(drill 0.75)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fee8cd9a-7c66-4643-8500-3a13d84b0b6d")
 	)
 	(pad "2" thru_hole circle
