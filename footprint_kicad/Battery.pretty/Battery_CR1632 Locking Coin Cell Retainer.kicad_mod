@@ -53,7 +53,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(fp_text user "${REFERENCE}"
 		(at 0 -7.25 0)
 		(unlocked yes)
