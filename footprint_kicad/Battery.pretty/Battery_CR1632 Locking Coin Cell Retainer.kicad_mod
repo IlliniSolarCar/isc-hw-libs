@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.mouser.com/ProductDetail/Keystone-Electronics/2896?qs=u16ybLDytRa2pX2twtKZKg%3D%3D"
+	(property "Datasheet" "https://www.mouser.com/ProductDetail/Keystone-Electronics/2897?qs=u16ybLDytRaCfCxAw8Ddzg%3D%3D"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -53,6 +53,18 @@
 			)
 		)
 	)
+	(property "Connection 2" "https://www.mouser.com/ProductDetail/Keystone-Electronics/2990?qs=xAjc%252BIZFyb4ruVFOXB%2FY%2Fg%3D%3D"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "c3f98b20-e285-4bbc-997d-aae6f1301bbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
 	(fp_text user "${REFERENCE}"
 		(at 0 -7.25 0)
@@ -67,17 +79,17 @@
 		)
 	)
 	(pad "1" thru_hole oval
-		(at -7.65 0 90)
-		(size 4 1.2)
-		(drill oval 3.18 0.4)
+		(at -8 0 90)
+		(size 2.2 0.7)
+		(drill oval 1.82 0.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "60566d0b-4573-4e8d-9221-ebad2dad7780")
+		(uuid "06b104bd-f9da-4c08-84ce-7bff860e55a0")
 	)
 	(pad "1" thru_hole oval
-		(at 7.65 0 90)
-		(size 4 1.2)
-		(drill oval 3.18 0.4)
+		(at 8 0 90)
+		(size 2.2 0.7)
+		(drill oval 1.82 0.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "d96e9ff9-e5f9-4219-9b19-9dedcfb78971")
@@ -89,7 +101,7 @@
 		(uuid "fee8cd9a-7c66-4643-8500-3a13d84b0b6d")
 	)
 	(pad "2" thru_hole circle
-		(at 5.5 0 90)
+		(at 5 -0.25 90)
 		(size 1.8 1.8)
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
